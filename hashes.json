@@ -1,0 +1,1352 @@
+{
+  "v1.2.2": {
+    "tag_name": "v1.2.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.2",
+    "hash": "1ddmx94dfl7n4b8mfrxxjggiaaqqs5nd499q276wnvqf1qjy0h05"
+  },
+  "v1.7.2": {
+    "tag_name": "v1.7.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.2",
+    "hash": "0amx0dvgiw14qm0w5z01msxf5ldvx43nwlf38a17fk6f6pgld2lf"
+  },
+  "v1.1.1": {
+    "tag_name": "v1.1.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.1.1",
+    "hash": "1vmlrysi0disxjlnvbn9bc0g381nkqkiw3py15y997a6n58m627v"
+  },
+  "v1.1.3": {
+    "tag_name": "v1.1.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.1.3",
+    "hash": "0ygwnrx4hw1d08ymqnsn34k0apbawb7nzhliw7nza9iy5bgbxn3y"
+  },
+  "v1.7.5": {
+    "tag_name": "v1.7.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.5",
+    "hash": "0c9g2q92c1gszi47zs6za86phcf01lz08irywlgrfw9b5b0r1v23"
+  },
+  "v1.6.11": {
+    "tag_name": "v1.6.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.11",
+    "hash": "0vc4xm9if4g5xxx39jvkwkr6d8c3a6rya62qqzan29fb4rq29170"
+  },
+  "v1.7.0": {
+    "tag_name": "v1.7.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.0",
+    "hash": "01df721b8fxdh5asxp3fm5m2i930x124dzgmrq82nspwybzqgw1i"
+  },
+  "v1.6.9": {
+    "tag_name": "v1.6.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.9",
+    "hash": "1ny400rlr92vzg4r6d0gq7idmalpbp5z7rvwlqj8pirkg85z4avw"
+  },
+  "v1.7.3": {
+    "tag_name": "v1.7.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.3",
+    "hash": "0pwirprna103ayq1x0xm5wvgi551lj7kqkfc8nnfq2k6n1nh09lx"
+  },
+  "v1.6.8": {
+    "tag_name": "v1.6.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.8",
+    "hash": "1y6n6rdfkaiqyhhg4agwc8c5xbkgr76vgk0d0xiwnizpr7pn8j0s"
+  },
+  "v1.8.0": {
+    "tag_name": "v1.8.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.0",
+    "hash": "1scl2dzlw0b2ybdrrpbb14r1yg3sir2l3rxpsxcpdyl5rfjqzcwa"
+  },
+  "v1.1.4": {
+    "tag_name": "v1.1.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.1.4",
+    "hash": "17b2fh6hqdky80wm3kac99amn43f5cjiakd1a6g4xrkqgf8p2xr8"
+  },
+  "v1.7.4": {
+    "tag_name": "v1.7.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.4",
+    "hash": "00dhjg8qdil45xi54328qw8hryfiaf46qz9vhd1b1qwy8vcqvy3v"
+  },
+  "v1.7.6": {
+    "tag_name": "v1.7.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.6",
+    "hash": "082yynjih7k4dhjs19w8rfwrhjqqgga6lcn4b0xlbj6axna0fhm0"
+  },
+  "v1.1.8": {
+    "tag_name": "v1.1.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.1.8",
+    "hash": "0nk98ii08i0fc4lkrhx8hsbj5vak0mhhq8c161hgxxik74fdc6jm"
+  },
+  "v1.7.7": {
+    "tag_name": "v1.7.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.7",
+    "hash": "1yy9jj1qdsj6n74vq295xsajdfh8gdlxqyidbr6vbdxc0jrldpmg"
+  },
+  "v1.0.1": {
+    "tag_name": "v1.0.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.0.1",
+    "hash": "12zxy9h7kjjbvx5hj46f6r82ccwcajq1kbv3bpfaw6jzgbar2ni7"
+  },
+  "v1.1.2": {
+    "tag_name": "v1.1.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.1.2",
+    "hash": "17qzyl33rzjywawp5ppnji8n9daxfkzjjg1snc0c8cjkbb9ncyc2"
+  },
+  "v1.0.6": {
+    "tag_name": "v1.0.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.0.6",
+    "hash": "1ilkmmfsnddqvpaxmih6apdqfbhgc5s7lbg2ap7ra753j1rhp1ni"
+  },
+  "v1.6.10": {
+    "tag_name": "v1.6.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.10",
+    "hash": "149bd0lj8vckacw36pfffgbx5g23jhrfyadak3igic1yi2ixiaw7"
+  },
+  "v1.5.8": {
+    "tag_name": "v1.5.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.8",
+    "hash": "0prd7y7yhg57kid5rwibba9ydqrkcabicgfcj8pnas5dd0phx7iv"
+  },
+  "v1.0.7": {
+    "tag_name": "v1.0.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.0.7",
+    "hash": "0hh4x8czjw13m4xlp1raj5plwc0npsm1kjfcfk8cpdf385vs5dhs"
+  },
+  "v1.0.3": {
+    "tag_name": "v1.0.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.0.3",
+    "hash": "1366qfbi33ni6czqaq1njwximrdj2s4sxy0vm41iv4j4qpvh8wsm"
+  },
+  "v1.7.1": {
+    "tag_name": "v1.7.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.1",
+    "hash": "0zndn0w27yrr9im01fawc1vi33wxk2zh0mli6hpf0z1w650swji6"
+  },
+  "v1.6.7": {
+    "tag_name": "v1.6.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.7",
+    "hash": "0gscc0k3rv55gjcw1klj6579dqfsxwaf0fmb6xfa5jfvlckfmlzp"
+  },
+  "v1.0.4": {
+    "tag_name": "v1.0.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.0.4",
+    "hash": "0v601j8x2gbi1nw5f1vzsr6xr2wpp0ipbq3j97kz70kbq52j3fjg"
+  },
+  "v1.6.6": {
+    "tag_name": "v1.6.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.6",
+    "hash": "0gjyw7wg5i0rn5id52r22qavn15641iz0ypqqyk4admsbg9ipk6r"
+  },
+  "v1.1.7": {
+    "tag_name": "v1.1.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.1.7",
+    "hash": "08n7qzmrmjsfi8qxapjkhyl57268l0d2b684lqvcsl39dvl42pzq"
+  },
+  "v1.2.0": {
+    "tag_name": "v1.2.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.0",
+    "hash": "10m9s9143bwd6hjld5bwc7n6xkr1bcg80xsj9ghs564qkkmcs4jz"
+  },
+  "v1.2.1": {
+    "tag_name": "v1.2.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.1",
+    "hash": "0na71v2akln44nb9fp25kqbkg77azjpf91il6p5b7a20lx7qkfji"
+  },
+  "v1.2.3": {
+    "tag_name": "v1.2.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.3",
+    "hash": "04n5125s5dafwvpr16z1a0mixsx3v55fs74kk62az2612kncnk2c"
+  },
+  "v1.6.4": {
+    "tag_name": "v1.6.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.4",
+    "hash": "09b377lfd6ifjx7xjhj9wy6rikpmwcxpmjh37k99k53wrdk396cj"
+  },
+  "v1.6.1": {
+    "tag_name": "v1.6.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.1",
+    "hash": "18pnkd1kl75prq2rlzb3dmac50b8pmi7sf52fzpa3i9xiksl19dq"
+  },
+  "v1.4.12": {
+    "tag_name": "v1.4.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.12",
+    "hash": "0qjp83mmxav01hi32nzkx5xnrg425aypwy5jrp2hivjbbz7haahx"
+  },
+  "v1.5.3": {
+    "tag_name": "v1.5.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.3",
+    "hash": "16g9v2q8s82px4z50v4bl6dn45f79rl9554r802nd80c6ibj2g5a"
+  },
+  "v1.5.6": {
+    "tag_name": "v1.5.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.6",
+    "hash": "1wq2lkd8khl5ifcncvbdillf5ky8n760hvrkm747q0628l690wm2"
+  },
+  "v1.5.7": {
+    "tag_name": "v1.5.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.7",
+    "hash": "0k9n7gprwwbvj5rhin820jp1bcnykmai63pxgkmcm18icac2i8xg"
+  },
+  "v1.4.5": {
+    "tag_name": "v1.4.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.5",
+    "hash": "0gvk0sp7xqflsgrzlyxz9cgwl4ylzykg66q1fibnhqklxdaj67f4"
+  },
+  "v1.5.5": {
+    "tag_name": "v1.5.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.5",
+    "hash": "1gigfv15q39m7hjahvhb1ngypg0md9v5sxlbpy1lds81864dlp16"
+  },
+  "v1.4.8": {
+    "tag_name": "v1.4.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.8",
+    "hash": "025n45bvr2jynz7ky5r9g4k8vm4mspkdpggi1kxdskagjp7mys6p"
+  },
+  "v1.6.3": {
+    "tag_name": "v1.6.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.3",
+    "hash": "02cg1584p846cx5r7pwc2rjnqgzx9hh760yh4pi1cv7r0671b5r6"
+  },
+  "v1.4.4": {
+    "tag_name": "v1.4.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.4",
+    "hash": "0zxwx2yfviqj6c2lch5m69sr8bnywgc6mi7xn020qxbbxnk74njw"
+  },
+  "v1.6.2": {
+    "tag_name": "v1.6.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.2",
+    "hash": "0k2isgsr08vnzy8cqxc8ji19qfw9w155b1v93k661hbkxrkn7847"
+  },
+  "v1.5.4": {
+    "tag_name": "v1.5.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.4",
+    "hash": "05cfi5nzaqpcin2awvja2d4ivp8p2fhk04kn3vmm0bssg7mfy175"
+  },
+  "v1.5.2": {
+    "tag_name": "v1.5.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.2",
+    "hash": "1zfipkcnmgbix8hn6rc5if4wmklr43v67xim1qikpp4niqzpkxx3"
+  },
+  "v1.4.7": {
+    "tag_name": "v1.4.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.7",
+    "hash": "1fa4ja9xviw7y426g0llq1mlacdb0y9kbh41n79l9h4p012gns8d"
+  },
+  "v1.4.6": {
+    "tag_name": "v1.4.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.6",
+    "hash": "06fmh4lbiwwnxm87qpaxxpwgr2hbp9w82hp173bxn6rjb0v6bkwr"
+  },
+  "v1.6.5": {
+    "tag_name": "v1.6.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.5",
+    "hash": "1gwglhylbpi6ncqqdyma9spdq919gnzmy4hhrrg15d65swq7pl83"
+  },
+  "v1.5.0": {
+    "tag_name": "v1.5.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.0",
+    "hash": "0rqxrg8wmgc09pghx2pkcmxx5myppj2p9wxjsry1v51l27svxrz6"
+  },
+  "v1.4.3": {
+    "tag_name": "v1.4.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.3",
+    "hash": "0nq4w6v6p77ja7m3acydqjdkwdmvy5nl8djqx8qbd9rksl855y93"
+  },
+  "v1.4.9": {
+    "tag_name": "v1.4.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.9",
+    "hash": "1cbxgi3vrq6ci98jc8lhqyfr11vwgwgyi4ywfkf8pphwvlpp8q0p"
+  },
+  "v1.4.1": {
+    "tag_name": "v1.4.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.1",
+    "hash": "1fczvzjx8ljykmj5bz2i21ibwgjg4ydk285j34ilsvlkdw7yrfc4"
+  },
+  "v1.6.0": {
+    "tag_name": "v1.6.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.0",
+    "hash": "003ghapqlc06hsfb8cawmn6144gp9miac391ixm5aqbazchrv9y2"
+  },
+  "v1.5.1": {
+    "tag_name": "v1.5.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.5.1",
+    "hash": "05ndi81hpgbs72440izm17z3wklfvlbh6mpgbj28r5k7va9q2l2l"
+  },
+  "v1.4.0": {
+    "tag_name": "v1.4.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.4.0",
+    "hash": "0xxd1hs4ln8dyv57wy2b1mg7cb7kmgcwmsmkxid2sprydnrqkafd"
+  },
+  "v1.2.6": {
+    "tag_name": "v1.2.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.6",
+    "hash": "0mwryjsvcp73szw50w7qhblsihcyrhgzvihsvz7c6r2i9w7qv2ib"
+  },
+  "v1.2.7": {
+    "tag_name": "v1.2.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.7",
+    "hash": "175s1f05bp2wiqhciv9z44hb35638kgvhq3mx943gjg16r3041h9"
+  },
+  "v1.2.5": {
+    "tag_name": "v1.2.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.5",
+    "hash": "01dzvmy9x9dzpp42m5mgjvrn0xl9a34sr9xikgxslwj5n3hhkzmw"
+  },
+  "v1.2.4": {
+    "tag_name": "v1.2.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.2.4",
+    "hash": "0rapw0z2n2ff9j1disi04409waz428xrr5x91l4zzx4a9vajgk0x"
+  },
+  "v1.13.2": {
+    "tag_name": "v1.13.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.2",
+    "hash": "19ipz7746ysvw01njmr1kpq6hng6laxprcscbrfczwnkxzirr640"
+  },
+  "v1.10.10": {
+    "tag_name": "v1.10.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.10",
+    "hash": "13g8z0wznymwsi177nsb7j2w78xj5lr1gskrdpbh6qyckqfqrag8"
+  },
+  "v1.11.6": {
+    "tag_name": "v1.11.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.6",
+    "hash": "0vyjvd9c1vr6r0plhqb64limbb08klrknjjv3j1p65f42aphwj7g"
+  },
+  "v1.3.10": {
+    "tag_name": "v1.3.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.10",
+    "hash": "087k87h79gi252440yabg40nsv4wpds2bfagxb5rwnvd2vfyips8"
+  },
+  "v1.10.12": {
+    "tag_name": "v1.10.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.12",
+    "hash": "15mk5qxx368qqyaxrd2rhid0l9j5a90xs89mbsanqfqq09m7b23s"
+  },
+  "v1.3.6": {
+    "tag_name": "v1.3.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.6",
+    "hash": "1bwypw5lhq7f60ramk294zj0s3v5qz1604kapzqp1s1ngvygxxhj"
+  },
+  "v1.12.4": {
+    "tag_name": "v1.12.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.4",
+    "hash": "177g3imzpgqp9dj8p7g2kd2vn0p8nqi522lh4crqa96a3zgbd741"
+  },
+  "v1.3.7": {
+    "tag_name": "v1.3.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.7",
+    "hash": "0b30g52azh790jqnr0f951yjmhcd1qmb85n4svgd0zgpydykq59h"
+  },
+  "v1.3.5": {
+    "tag_name": "v1.3.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.5",
+    "hash": "079xig2ryah4qn4v88dqxx50fv7f2sywlwdiyjiygym3ij8wg7xz"
+  },
+  "v1.13.1": {
+    "tag_name": "v1.13.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.1",
+    "hash": "0kjy5a360d7fyb2l09xgfsixnm1x33bk54c9rps008nspcdk9sh6"
+  },
+  "v1.13.0": {
+    "tag_name": "v1.13.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.0",
+    "hash": "038lgakkzk1wl5qiz0azjvm791frvs3k9zlxnbpw0gwr1mnz9n0j"
+  },
+  "v1.11.7": {
+    "tag_name": "v1.11.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.7",
+    "hash": "0h4h4k08hxa9m53ph7kxx8ci2wg07l3mw6rcqdpqrm4sk9lc9zc1"
+  },
+  "v1.3.2": {
+    "tag_name": "v1.3.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.2",
+    "hash": "1nqd24dy3yajx1rbpm4vsa8ryazja198l1pa83n03q86pcs8f7rz"
+  },
+  "v1.12.2": {
+    "tag_name": "v1.12.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.2",
+    "hash": "0jvwxgb0zfhv3dqhd3yxlzi4bc24j0r8hbjj2w3wmgp73a29sc0l"
+  },
+  "v1.11.5": {
+    "tag_name": "v1.11.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.5",
+    "hash": "0fawzs2ij1di3hv0sinldjgm90f1wgk99cf65p3laxg8lvmj6g4j"
+  },
+  "v1.12.5": {
+    "tag_name": "v1.12.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.5",
+    "hash": "0d3b4f4h2pkcdp23d9x2mm4phsz85z16m8xy9z795na1180m38in"
+  },
+  "v1.12.3": {
+    "tag_name": "v1.12.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.3",
+    "hash": "0n66012v562fzq88a2j9f6r36ijx2kzsd2qpzs911bys9i762gjn"
+  },
+  "v1.3.4": {
+    "tag_name": "v1.3.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.4",
+    "hash": "1k3d994nain492a1kbg7cix1gsa9gxdyhnwzbvbmxvm9m1va5yz8"
+  },
+  "v1.3.3": {
+    "tag_name": "v1.3.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.3",
+    "hash": "1jigjqwwv4yi90b1ckfblc176r4r196h46j53g9qc4pwrlfxi2kr"
+  },
+  "v1.10.9": {
+    "tag_name": "v1.10.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.9",
+    "hash": "1vhp6mw12gy7j7kjq7sf8w572jyknqqps3vg9hxazbzlh7v4r2z0"
+  },
+  "v1.11.4": {
+    "tag_name": "v1.11.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.4",
+    "hash": "1vdf504h0f73cq7fy8ky4i5jhsyjgr4r0j5765xls2yrm6s7sajz"
+  },
+  "v1.10.11": {
+    "tag_name": "v1.10.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.11",
+    "hash": "0i0h000rypiv2bxy98q6rlc1yp93r47i7b6lkksn5pn6g0j45hp4"
+  },
+  "v1.3.8": {
+    "tag_name": "v1.3.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.8",
+    "hash": "005pf6bjr605b4s4kyrvg92yvyxr74alrrz342imqf4x7mw5wawm"
+  },
+  "v1.3.9": {
+    "tag_name": "v1.3.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.9",
+    "hash": "1fbqavzz9jngcan06wsl7f72k1ppqvqmb08k93z114y37pj6iryr"
+  },
+  "v1.9.11": {
+    "tag_name": "v1.9.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.11",
+    "hash": "024crhglmkyfqr44n9vy8zaxi2lhj5jn88vpfrnncai9v5c9xg03"
+  },
+  "v1.10.8": {
+    "tag_name": "v1.10.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.8",
+    "hash": "1sswsqj8882wzfh2i9g2xrfhsk274sjj8x85g463m7d42wkpvxmm"
+  },
+  "v1.11.3": {
+    "tag_name": "v1.11.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.3",
+    "hash": "19vq8y0lih48iqjzrxax7clavasxrfzxvxiy5adw48v9d47djhv5"
+  },
+  "v1.3.1": {
+    "tag_name": "v1.3.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.1",
+    "hash": "0xm9d73m3m4jnxdz9fxzrsizhlkqyw7cx4rmx09fwy29kq80x7z3"
+  },
+  "v1.12.1": {
+    "tag_name": "v1.12.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.1",
+    "hash": "0krbjw1sj7y1aqdslipnlax99gz5pbilp383hc054myabclfgj6g"
+  },
+  "v1.8.15": {
+    "tag_name": "v1.8.15",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.15",
+    "hash": "1z5fairj9ack41apk9gmlvzfwpfh865jv8gqp8ijh0hhgx7lq7jl"
+  },
+  "v1.11.2": {
+    "tag_name": "v1.11.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.2",
+    "hash": "1djy9sihikr7lkyk10hiqpzgcjm5wq261nn22rpnj1arps633xwl"
+  },
+  "v1.10.7": {
+    "tag_name": "v1.10.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.7",
+    "hash": "190dvmd992ds2a5244x7adwi7p9544ilyr10qhyb8i2bgd682bza"
+  },
+  "v1.11.1": {
+    "tag_name": "v1.11.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.1",
+    "hash": "0n2pniw38rg0lz6np63743izsv4aq9rsi5m7fbw9jncr0bk6rm9l"
+  },
+  "v1.10.6": {
+    "tag_name": "v1.10.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.6",
+    "hash": "1nl4jr98a0ahpgakqwbcry4rzj1hd02pkarxz14mhp04a7fn0ch5"
+  },
+  "v1.11.0": {
+    "tag_name": "v1.11.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.0",
+    "hash": "0hnx4g7d65dfvl7xj013z2g7dssqd66nsqkaagcnf77fvqhs4gcr"
+  },
+  "v1.9.10": {
+    "tag_name": "v1.9.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.10",
+    "hash": "0f5zzxbxxrzckkccl9xjjh2h9vj07gl4a3nbsancm0yppi6h6np8"
+  },
+  "v1.10.5": {
+    "tag_name": "v1.10.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.5",
+    "hash": "1x55kcf12lv7zv0snh59qidcs3gwggxszfzpk9hgk7b5sbly8wvw"
+  },
+  "v1.12.0": {
+    "tag_name": "v1.12.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.0",
+    "hash": "072gcznhzlx00v9px72f3hg108vjf873833icf0siziyg4ms9qcc"
+  },
+  "v1.3.0": {
+    "tag_name": "v1.3.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.3.0",
+    "hash": "1yxvg8pd5c9x61gqkq2wr4an3283asrbq3p3xrcbzlazhjy7kfal"
+  },
+  "v1.10.3": {
+    "tag_name": "v1.10.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.3",
+    "hash": "1jfd3sqlpq7khi336iil5fzvlz9lzjcp5l0mjg8wgdn15z6vds8p"
+  },
+  "v1.10.4": {
+    "tag_name": "v1.10.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.4",
+    "hash": "1jwxgjs77pp1kqaxzj48fs1bd2lifvrjqwfx38vfh7k4vnqpmyf0"
+  },
+  "v1.9.7": {
+    "tag_name": "v1.9.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.7",
+    "hash": "1lzn06cdl9y0nkn32qgf7k8k1d987738vfga026i7n7p7ccs1cr4"
+  },
+  "v1.9.9": {
+    "tag_name": "v1.9.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.9",
+    "hash": "0mwibmwlrch0prnr5m1c784d7pcs64zijjasw0qswqkakbr8dlji"
+  },
+  "v1.8.13": {
+    "tag_name": "v1.8.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.13",
+    "hash": "0vydbi8hacjs3pmw5zhpk5c7kq9xkdglm8sn9byj5ga74zv8qsgj"
+  },
+  "v1.8.14": {
+    "tag_name": "v1.8.14",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.14",
+    "hash": "1v0ya2agbglva0l6way1szpz75iskb0ciqp44lmhprhpapiywc5h"
+  },
+  "v1.10.2": {
+    "tag_name": "v1.10.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.2",
+    "hash": "1kmc71fxfn2hkhs171cj1p2awdg19z600bzi7fmz93r4r058s20f"
+  },
+  "v1.7.16": {
+    "tag_name": "v1.7.16",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.16",
+    "hash": "17k8vmcfnyy7i0m1237z92ay3qfbb3yq1kaz2f3ilrs0z4r2lchp"
+  },
+  "v1.10.0": {
+    "tag_name": "v1.10.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.0",
+    "hash": "1c2xg3yay785n8864xl7kfs4k0607mb729xb989pv9hk5z0ijghm"
+  },
+  "v1.7.15": {
+    "tag_name": "v1.7.15",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.15",
+    "hash": "1kynjal1v5vsjacsi4m3f7cr1q00ggkx44w4khjh6rip9rnkijmw"
+  },
+  "v1.9.6": {
+    "tag_name": "v1.9.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.6",
+    "hash": "11lqm8h2ni0wjkllj3kaay4f870d3x8wwxank75fznqs3gszj975"
+  },
+  "v1.8.12": {
+    "tag_name": "v1.8.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.12",
+    "hash": "0xm9zvp6j8gn9mgryx6c7pj7jla958vrp5ksz2c3arm014ihm1a6"
+  },
+  "v1.9.8": {
+    "tag_name": "v1.9.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.8",
+    "hash": "0bdm3rg4wfqpzxllczd0agxrahm1vn5lyl21xzhhazmklr8jmhay"
+  },
+  "v1.8.10": {
+    "tag_name": "v1.8.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.10",
+    "hash": "0pkb68gb11g5zscdmd9hmf5xm39991idaz52c2kf6hg9aglf9lrw"
+  },
+  "v1.10.1": {
+    "tag_name": "v1.10.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.1",
+    "hash": "0n68knc2ik11wwg52nj72rmgj520qj0gbj0c9xgrb5n3vfikr759"
+  },
+  "v1.9.5": {
+    "tag_name": "v1.9.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.5",
+    "hash": "0521bd2xy2rcsf8890yb8c59gr1hn6xb9vi271h8dja4brndln3c"
+  },
+  "v1.8.11": {
+    "tag_name": "v1.8.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.11",
+    "hash": "1jbralfbplmk217a1yqz84d7pzdvwah9csllrx8mk33sard28bhs"
+  },
+  "v1.8.9": {
+    "tag_name": "v1.8.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.9",
+    "hash": "14n7pxyzhrf56nxyhdvw4adpl9j4mnrf52z80a946dcqawbd1xzi"
+  },
+  "v1.9.4": {
+    "tag_name": "v1.9.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.4",
+    "hash": "0x93nwlwb7znslnhmm2vm00wbrxshwk732v3pmhqkbz18097ijnf"
+  },
+  "v1.8.7": {
+    "tag_name": "v1.8.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.7",
+    "hash": "0zfkym57c3i38gzg85n6mlzd01b80f9mf14qkhcn2jsdz736gx8q"
+  },
+  "v1.7.13": {
+    "tag_name": "v1.7.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.13",
+    "hash": "10zpjn949hr0iypdyz6h8qs3m4hy7293h5cqac9291xfs33wdglj"
+  },
+  "v1.9.2": {
+    "tag_name": "v1.9.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.2",
+    "hash": "0a0f411fqqmm694750fm3780qih02b4cin02j0vvwlsn0f5g981a"
+  },
+  "v1.8.8": {
+    "tag_name": "v1.8.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.8",
+    "hash": "0k5fnlyi7l9apbz7m5wlq8spah2as2mcknyalnqjlsm55hnks1r3"
+  },
+  "v1.7.9": {
+    "tag_name": "v1.7.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.9",
+    "hash": "1g4j1f26ga6qpi030y3wqljvjj0rwy5hl4z9y7rdnpxaza4j5732"
+  },
+  "v1.6.13": {
+    "tag_name": "v1.6.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.13",
+    "hash": "1510za47qshir0gvw1972h3464fdkyyzpab6zqmnjys51pv8yrhf"
+  },
+  "v1.7.10": {
+    "tag_name": "v1.7.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.10",
+    "hash": "1bw12dsb2lz954qmgaj4w01mrvzgssyrbdh4lm0al8ii8i11jg5v"
+  },
+  "v1.7.11": {
+    "tag_name": "v1.7.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.11",
+    "hash": "1qar1cgzbk94q7mivd542w9rw7453xr31acacaxnwv040493jkk5"
+  },
+  "v1.7.14": {
+    "tag_name": "v1.7.14",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.14",
+    "hash": "03yaxqfc5zmq53w12p03nqi1882ll8ggynil3ahyinkhn50v8cx0"
+  },
+  "v1.9.3": {
+    "tag_name": "v1.9.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.3",
+    "hash": "0wfbdvpbq8gwhyf64pqjl7vlj73ybjsy98192qlh9x1z122vrx87"
+  },
+  "v1.8.6": {
+    "tag_name": "v1.8.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.6",
+    "hash": "0xb1ybfw0hk5c3m353cikd337236qazzrkc60ggkfzx95mz6gp00"
+  },
+  "v1.9.1": {
+    "tag_name": "v1.9.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.1",
+    "hash": "18wxgjp9mhly59rkrhip8mslqqwjx1vvldilym7fl5jcjjqkpdfc"
+  },
+  "v1.8.3": {
+    "tag_name": "v1.8.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.3",
+    "hash": "1p42sqagmxi43rymgydc6j7incm6l40l952y7vxyz7gggrcwl5x9"
+  },
+  "v1.8.2": {
+    "tag_name": "v1.8.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.2",
+    "hash": "0bcfmc56shw3qszznghjrvkf0lfk588l2x5pr19bii01c5rdpwy1"
+  },
+  "v1.9.0": {
+    "tag_name": "v1.9.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.9.0",
+    "hash": "0cza0sskhhw2dlx9y1w3784zmqv5ilikag1cmha2brsnri0xln13"
+  },
+  "v1.7.12": {
+    "tag_name": "v1.7.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.12",
+    "hash": "0pxl1q0669m1skg8ga30rs1y4mwbz2n2yz7b25wflq2kw1wyalgv"
+  },
+  "v1.8.5": {
+    "tag_name": "v1.8.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.5",
+    "hash": "09mlidpsd6q08897rx99wsgla4gc46jmmglcjp2rwm6mr2vpjzms"
+  },
+  "v1.8.1": {
+    "tag_name": "v1.8.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.1",
+    "hash": "12s6w588wml1c7mn3nixdafxqrymwln7g1vhkwaaxa9gp1x2hwws"
+  },
+  "v1.8.4": {
+    "tag_name": "v1.8.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.8.4",
+    "hash": "08qsfb6jas6b28ylj9rclx4jc3bif7bjn36c5b0g2da2026cp7dy"
+  },
+  "v1.6.12": {
+    "tag_name": "v1.6.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.6.12",
+    "hash": "1wj77rf1mam0imj4nimljy6p1cb5hqzcpkbzgvv52jmr2c444pjf"
+  },
+  "v1.15.12": {
+    "tag_name": "v1.15.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.12",
+    "hash": "0c41kbgrcwl6cc3p61a36hcb45xcf7109cva2ykh9vfqhzl5b1ia"
+  },
+  "v1.7.8": {
+    "tag_name": "v1.7.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.7.8",
+    "hash": "00npjfyh9xxnma4mlvsdi52h2x1ka50cr88gpyppv01j0zw8ibyq"
+  },
+  "v1.17.6": {
+    "tag_name": "v1.17.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.6",
+    "hash": "0r01ybflhnhzb93g74y7anzi9wjyjld9sg67j66fz1krly4f8gvc"
+  },
+  "v1.17.5": {
+    "tag_name": "v1.17.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.5",
+    "hash": "0wz4n0jwigmrh7iyppk42ndy9gy5cylvyml5ygnvxkhfw0mc07vr"
+  },
+  "v1.16.9": {
+    "tag_name": "v1.16.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.9",
+    "hash": "02f3n2rws1y8qshv5k68ifr3p6nx7gyld8k5qq3k9m3rghcp3c60"
+  },
+  "v1.18.1": {
+    "tag_name": "v1.18.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.1",
+    "hash": "05wbggaxs64bw95qy8gbcfgqzazk855a4f4zkm804kh2pvh1hpjy"
+  },
+  "v1.15.9": {
+    "tag_name": "v1.15.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.9",
+    "hash": "0bs6m7h2yvmmj0vxb3hwdv3fshlb7dsr76087br9ddwgb9zrlby0"
+  },
+  "v1.15.10": {
+    "tag_name": "v1.15.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.10",
+    "hash": "01l51c90bnhjbq0vfw9vh0vvqdj3k4ays0x9zg28lj05rvd05k4a"
+  },
+  "v1.18.2": {
+    "tag_name": "v1.18.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.2",
+    "hash": "033lli9mqvixk6362645qw1s0m7rz9z0hvy4y8jvj5igmc3wn603"
+  },
+  "v1.15.11": {
+    "tag_name": "v1.15.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.11",
+    "hash": "0afwdfb4jndh5h3caryknkrbfyischsbbqavrz6yrp2fgs741hjp"
+  },
+  "v1.18.0": {
+    "tag_name": "v1.18.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.0",
+    "hash": "0550sh9fpn2l1bfqa13398maq7fs6yyr7amifwj8r981a0q3r1w4"
+  },
+  "v1.16.8": {
+    "tag_name": "v1.16.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.8",
+    "hash": "0x0gwd6rmgnay6hlvsi32ackl78fs0bbl8ky74810gzd9rj1vg9j"
+  },
+  "v1.18.3": {
+    "tag_name": "v1.18.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.3",
+    "hash": "02yadv6fad32pm3f9dnla06n2ir3jy5vbg9q651zkms071mmp4a7"
+  },
+  "v1.15.8": {
+    "tag_name": "v1.15.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.8",
+    "hash": "1n3cqc34w8ymr5vj36kzq2vka7l9zk9jfmbcb9f1nah0fvn2z4pl"
+  },
+  "v1.17.3": {
+    "tag_name": "v1.17.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.3",
+    "hash": "1naimdjv7k32nf6pz9rsgjn7nx7px8l3swdr6i40gmp7p63f4pwy"
+  },
+  "v1.16.7": {
+    "tag_name": "v1.16.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.7",
+    "hash": "078mn22yv2pd1pdzqq01nkzdcgzfixz2hi72yzspixk7ck0h58bj"
+  },
+  "v1.16.5": {
+    "tag_name": "v1.16.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.5",
+    "hash": "1qbxp5zjwl1d0ig8hblwsda4ai75053gq9pp888dv0k5z56src57"
+  },
+  "v1.14.9": {
+    "tag_name": "v1.14.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.9",
+    "hash": "1083n6in62nkr7rcvj0nm6w51mrxwflsn9mgzx2d542vvwv2x9i7"
+  },
+  "v1.17.1": {
+    "tag_name": "v1.17.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.1",
+    "hash": "04frfcmylh7d5hx34xas3cdhf8kmwdyrlywhbnrrldvfq0c8qmmq"
+  },
+  "v1.16.4": {
+    "tag_name": "v1.16.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.4",
+    "hash": "1j4nppfiwj4ihn2mb3cv6xk9kr4k8x62478fzvdj1ahn98ngxl0y"
+  },
+  "v1.16.6": {
+    "tag_name": "v1.16.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.6",
+    "hash": "08zyiyjlgfbdr9ifdi1bwrdnz0qcdyvrn9sjykz5ral60dqymhsx"
+  },
+  "v1.15.6": {
+    "tag_name": "v1.15.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.6",
+    "hash": "072jrv2a2yjivvhk1n2174b94a6gffbl6449h3psa0g7r7rh33dz"
+  },
+  "v1.17.4": {
+    "tag_name": "v1.17.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.4",
+    "hash": "02qsi2cl6hf5cid79z2rjm5324qbbyfgayh93jdh1r5yk8872cx7"
+  },
+  "v1.15.5": {
+    "tag_name": "v1.15.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.5",
+    "hash": "05aacim8s2cb3s09xs70zgr7q1v10f0y5c4cpvfnapb78saw453j"
+  },
+  "v1.15.7": {
+    "tag_name": "v1.15.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.7",
+    "hash": "11ixivi7kv86pqb3hd2vm8f9jakqc5yv0s5ygig7ziqckzisrag2"
+  },
+  "v1.13.12": {
+    "tag_name": "v1.13.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.12",
+    "hash": "1wzlqpccj3qdi3iffiyng3jnrpyicvb8w5gpfvqm4xra5q14amgr"
+  },
+  "v1.14.10": {
+    "tag_name": "v1.14.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.10",
+    "hash": "0h0a0qhifq9sl67jpmynndnrdj6c3yy4slyiw5nn5qcgsb30hy7w"
+  },
+  "v1.16.2": {
+    "tag_name": "v1.16.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.2",
+    "hash": "1sgp4g2r7brjdmazhaq8d5hd66a72aypy3yicqmjrhmsf9c2rs9l"
+  },
+  "v1.14.8": {
+    "tag_name": "v1.14.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.8",
+    "hash": "11bsyk8hj59krpwdqyaa8ry2h20kl5i6mczdirzlsxcpwdcc27iy"
+  },
+  "v1.17.2": {
+    "tag_name": "v1.17.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.2",
+    "hash": "1n8ij7fh5z0w3lgadc3kffflmmyn5lr2lv9ncccxg0fgzpibwaar"
+  },
+  "v1.15.4": {
+    "tag_name": "v1.15.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.4",
+    "hash": "1aqv9l65s68ck3bjpcrlb8r5bxdapy30r4lfzqmrm8bjbcdyb18w"
+  },
+  "v1.13.11": {
+    "tag_name": "v1.13.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.11",
+    "hash": "0m46x7xdj4xql0skhyw2fl6847j1ks7jdw3r10f4fcvxmgj3bg2c"
+  },
+  "v1.16.3": {
+    "tag_name": "v1.16.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.3",
+    "hash": "1sbpxa6bmk4blgs7aydhhvdb4jgynkyfr612k6hx73k0yb1fq8vw"
+  },
+  "v1.14.7": {
+    "tag_name": "v1.14.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.7",
+    "hash": "0x02fgyind9kn06v173za8y8kk0i0y6n4kicdhfh248bahn3613l"
+  },
+  "v1.14.6": {
+    "tag_name": "v1.14.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.6",
+    "hash": "0bhrqncnsd5k452kph2v6h22d5xdcz634y7v66r2nwb3g315i53i"
+  },
+  "v1.15.3": {
+    "tag_name": "v1.15.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.3",
+    "hash": "0bdh0fhknmvlh7r5q2xrxc0z34j3df25i3r5zbsnmz7ls67nyrf8"
+  },
+  "v1.14.4": {
+    "tag_name": "v1.14.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.4",
+    "hash": "1v7p1dxcqxd0hz7n52r69lkqy2n6a1y4pn10b81wxd678hwggg30"
+  },
+  "v1.17.0": {
+    "tag_name": "v1.17.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.0",
+    "hash": "1fnr7cmkk9yfx8fv6dmk8kkdf6q7xcpzr796k0brjghkq6rzqsm9"
+  },
+  "v1.15.2": {
+    "tag_name": "v1.15.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.2",
+    "hash": "1jbxrk48scy9abszkpn42rmd1klcdwbzir6qibjsds3y2wlz4mid"
+  },
+  "v1.14.5": {
+    "tag_name": "v1.14.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.5",
+    "hash": "0af1ndml4625a4lb3va0sdc79s2bdq1d9xd5iaanws1ygy6pf2n1"
+  },
+  "v1.13.8": {
+    "tag_name": "v1.13.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.8",
+    "hash": "14n5wsxgbry8nl4y6g8y74vqb4c11hmfd1vcar0nywn9zjy2zlfg"
+  },
+  "v1.15.1": {
+    "tag_name": "v1.15.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.1",
+    "hash": "1lgvwqkw0jdm1b6prc1yl24mi5ycy4a2qm309inb37xgqnga9jkd"
+  },
+  "v1.16.1": {
+    "tag_name": "v1.16.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.1",
+    "hash": "170i61sk8w99c2ha8rzvr19j5xmlb6gz8c5rssw6i0290hgqqhi0"
+  },
+  "v1.12.10": {
+    "tag_name": "v1.12.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.10",
+    "hash": "1gs6sk1b4y6asn6l4lvcn511ml7ncsf7n8vcp3si7hw2pxakz4yg"
+  },
+  "v1.15.0": {
+    "tag_name": "v1.15.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.15.0",
+    "hash": "0bmi5sw35h2sha00d5qnl9gkhzmk23ds186l675cd3fdjcjn22jv"
+  },
+  "v1.13.9": {
+    "tag_name": "v1.13.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.9",
+    "hash": "0v6vh6p272s5sg1gc0686ljyd42nnbg4mjlfgqfxkz180yh1m9s5"
+  },
+  "v1.13.10": {
+    "tag_name": "v1.13.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.10",
+    "hash": "0p8hgrw3lq09h1wvyz1inhiwv51w2dbzb0nj3a43hh85vc8c29yj"
+  },
+  "v1.14.3": {
+    "tag_name": "v1.14.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.3",
+    "hash": "1ga5l5120vjf2fznwglqddd7sqcy15ixn7zxmhfzy3pq63a5jvsf"
+  },
+  "v1.11.10": {
+    "tag_name": "v1.11.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.10",
+    "hash": "1mxbgmxb0k74fsdixl95qip4ild4kvc93y8pyzc8h65j17q5r8ry"
+  },
+  "v1.14.2": {
+    "tag_name": "v1.14.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.2",
+    "hash": "07dv4svsywlf17jfshbzwni1rrczdg8q51mwddyc2khrfq1k0iik"
+  },
+  "v1.12.9": {
+    "tag_name": "v1.12.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.9",
+    "hash": "1y0a0h095qb560wrihrjs9nkda1qzj9ksk3izy52rk0m997nma74"
+  },
+  "v1.16.0": {
+    "tag_name": "v1.16.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.0",
+    "hash": "1b3nh2fgdz3xnk5y9slhkm5bgpp55w192y3wf9fyf0ak7ckjjr06"
+  },
+  "v1.13.6": {
+    "tag_name": "v1.13.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.6",
+    "hash": "06vrj1n67v8l3dc5qz8x9n1b9vk6spd3flclzd4zbx4x77cm0fgk"
+  },
+  "v1.12.8": {
+    "tag_name": "v1.12.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.8",
+    "hash": "0b9qdmgzqdlkix4dwgdbfa4vnqds5qkgdp5khsqr8i66hyj9m4cp"
+  },
+  "v1.14.1": {
+    "tag_name": "v1.14.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.1",
+    "hash": "09q92jcb7yp928jmr8r4n57bjsdwjjw3axiq93xfi0fjmilsp038"
+  },
+  "v1.14.0": {
+    "tag_name": "v1.14.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.14.0",
+    "hash": "1a31jl8h68ya65v4cwjgwz8dz2pbbkvlx5pn49b73pigc9srqx5g"
+  },
+  "v1.13.5": {
+    "tag_name": "v1.13.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.5",
+    "hash": "1c6hpkc0vsnbna1ksga91qmjf288n5lbfk4iinl6f5kq6lbnbnzz"
+  },
+  "v1.13.4": {
+    "tag_name": "v1.13.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.4",
+    "hash": "10rnl9lpbn4wp4kjd1syrbbyhgax8pn1m26na68chw0f09a6biq5"
+  },
+  "v1.10.13": {
+    "tag_name": "v1.10.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.10.13",
+    "hash": "172p7z2cf17f1n60d9a2wcfjyqkxfhffyzc71xvb8vy1w5mqk7hg"
+  },
+  "v1.12.7": {
+    "tag_name": "v1.12.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.7",
+    "hash": "0lbi3ak77v2j5j69dsbrlzxkl991lwh24qk5m6221lb574pxr2r4"
+  },
+  "v1.13.7": {
+    "tag_name": "v1.13.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.7",
+    "hash": "11p7yvaijys7wyzwiixj1kzhp06gvrga377ahv7j8bf9wmac3891"
+  },
+  "v1.11.9": {
+    "tag_name": "v1.11.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.9",
+    "hash": "1qa7g0qda8ab2378y99nrq53ibbd6qyjhrc36dsrfs9z9rwgsw1h"
+  },
+  "v1.12.6": {
+    "tag_name": "v1.12.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.12.6",
+    "hash": "0k9kbfva1mnh7vbazwd3dl5yz7n53q7vpm7b0dqkm9k67k3h7vjs"
+  },
+  "v1.11.8": {
+    "tag_name": "v1.11.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.11.8",
+    "hash": "17li18kdxdb0bsx5mxfrkm8pkdkmsknbysayjs3bhrwj8gpcjkvd"
+  },
+  "v1.13.3": {
+    "tag_name": "v1.13.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.13.3",
+    "hash": "1zaa270j99lw0j7hviix38s262q597y6hpm8nw6djk1jd5hg3bdw"
+  },
+  "v1.20.11": {
+    "tag_name": "v1.20.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.11",
+    "hash": "12510nd8hzpx97ph7lb217y3qr6v640ldcz0j84a4q7g50c0lm8h"
+  },
+  "v1.19.15": {
+    "tag_name": "v1.19.15",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.15",
+    "hash": "01v3x6amsj61wsllw2v98s49kiicg8l09iqvvbzawy6n1ycr0mqh"
+  },
+  "v1.22.2": {
+    "tag_name": "v1.22.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.22.2",
+    "hash": "0am0lkh8j1lfgz81182qi0cgmvik822llfan8n7c54zidimlg37d"
+  },
+  "v1.19.14": {
+    "tag_name": "v1.19.14",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.14",
+    "hash": "0d860a4iwwg1nf38qiph209gs576bcjnvrxmzwnzj8qs3158ykrd"
+  },
+  "v1.19.13": {
+    "tag_name": "v1.19.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.13",
+    "hash": "1bgpn7679f9nghh0s0q1cx65b19nbc4y2d2g3j5izjhrypc334cm"
+  },
+  "v1.21.5": {
+    "tag_name": "v1.21.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.21.5",
+    "hash": "0y1a2bmly6595pj03vkdyk7rv6ph4zgc0rfsbh65bi639i85n5ha"
+  },
+  "v1.20.8": {
+    "tag_name": "v1.20.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.8",
+    "hash": "1bd2kn6s64zg5np1sg6187qbpzjq3qb96svkbw86q0s874g7h2yz"
+  },
+  "v1.20.9": {
+    "tag_name": "v1.20.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.9",
+    "hash": "1dpj5li8gzl1shsg8b6aw4pqmbvmnfnm5gv9ijs7bxcdbfw58vkr"
+  },
+  "v1.22.0": {
+    "tag_name": "v1.22.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.22.0",
+    "hash": "1pa046ria3sv730j1wi436z9nqfsxghx9skgzhvawg9aprxfp952"
+  },
+  "v1.19.11": {
+    "tag_name": "v1.19.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.11",
+    "hash": "0ysdrm3zpqhr7xalc7iij207ypawhv9jhncp2kq5hdvwdw2swiln"
+  },
+  "v1.18.19": {
+    "tag_name": "v1.18.19",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.19",
+    "hash": "0x195qb23zqj9kax99crdmq5qvzyw705qskkz64zqijc3w9jxij2"
+  },
+  "v1.20.7": {
+    "tag_name": "v1.20.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.7",
+    "hash": "1dvn66vg4b6056qf051qg1l1fmdcfimwndx7k1vd3mvyd5xqrzva"
+  },
+  "v1.20.10": {
+    "tag_name": "v1.20.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.10",
+    "hash": "1ky2n8p4fv2gq8wcybhgbc90wxv2ayllb4qgljal47vj5w1bfyyh"
+  },
+  "v1.22.1": {
+    "tag_name": "v1.22.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.22.1",
+    "hash": "06jkyvfyzlis6jb5gjmmqz16ccqn9cd10gllr7nx7a8dl5kyi4hy"
+  },
+  "v1.21.4": {
+    "tag_name": "v1.21.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.21.4",
+    "hash": "11zpis0fln7x7nzra8php5cg8cfsygc1zjljkky68dmqmnwr8crv"
+  },
+  "v1.19.12": {
+    "tag_name": "v1.19.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.12",
+    "hash": "0ipjbvzj1x1lv55lpfzas10l2qzi37i4sbl11qs5kr6v511xfng9"
+  },
+  "v1.19.10": {
+    "tag_name": "v1.19.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.10",
+    "hash": "1zkq1zly0iijkvwj604a0ga6hnvl66khm9z1r5p11pd629s66sff"
+  },
+  "v1.19.9": {
+    "tag_name": "v1.19.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.9",
+    "hash": "1c852qcmi8rif0x854v7ng451imvapqsvpwsqbd6xyd4mnxff0w3"
+  },
+  "v1.18.18": {
+    "tag_name": "v1.18.18",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.18",
+    "hash": "0i59cx2bxwwns0mck56js9kz8ljg1dx29xmmlqglycn78wx2crya"
+  },
+  "v1.18.17": {
+    "tag_name": "v1.18.17",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.17",
+    "hash": "1dfdk9571rm20fyggdbbq1dcgk1wkmhkr31vwrbi06ngv2z5yxn8"
+  },
+  "v1.18.20": {
+    "tag_name": "v1.18.20",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.20",
+    "hash": "1plas71wma2rkjdy34j5fl8m22pa3n2sncwh6s2nsd7r0abkc43d"
+  },
+  "v1.20.5": {
+    "tag_name": "v1.20.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.5",
+    "hash": "1dg12kdmyysndkk5ahi9anxlrmsmrhmllm7h6nqncnr9mvq14zd6"
+  },
+  "v1.21.3": {
+    "tag_name": "v1.21.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.21.3",
+    "hash": "0dm4axh84dhf9p6jhfspsdbz1y81ffxkdjlq0jvrqh3na2nv83rv"
+  },
+  "v1.21.0": {
+    "tag_name": "v1.21.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.21.0",
+    "hash": "0rcp6g01w7hzvnb0w377gma2jy0g06y923f9jd8ilsxx6hq84w8q"
+  },
+  "v1.20.4": {
+    "tag_name": "v1.20.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.4",
+    "hash": "0n1hfns2vxcvdqysbrppsqafbbwz11z5c64j1jskd3m12n9vsvkp"
+  },
+  "v1.20.3": {
+    "tag_name": "v1.20.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.3",
+    "hash": "0c0hlga062w4bvm8wda8ksapkza00ff8y1fam42jn0vn87mbf2ll"
+  },
+  "v1.21.1": {
+    "tag_name": "v1.21.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.21.1",
+    "hash": "1pspw51aky9r6g9qbxnyyigjdqz5x82wr124bp3bj6laibzyns53"
+  },
+  "v1.21.2": {
+    "tag_name": "v1.21.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.21.2",
+    "hash": "0nlgjxl1yijxrlm5d8dip5dwq79fbg6y9z5pvkqkxqldz2rbvi8g"
+  },
+  "v1.18.16": {
+    "tag_name": "v1.18.16",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.16",
+    "hash": "0zvvzqiw651a4zjn1iiwqnksif01wshy2raysq6bkf0i198lzk42"
+  },
+  "v1.20.6": {
+    "tag_name": "v1.20.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.6",
+    "hash": "1fg8rqf5rb8kq40ba2wgsxvhjpvqgwjsss3sfxngln396vgc3mj0"
+  },
+  "v1.18.15": {
+    "tag_name": "v1.18.15",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.15",
+    "hash": "16np04vygazlaciri4dz3z121qwdyxkwckizd3v628m1344vzzl5"
+  },
+  "v1.18.14": {
+    "tag_name": "v1.18.14",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.14",
+    "hash": "0fvkfxl2dpvvgkcan45zv09plwvc82xc0l84qh3v2lwly644z4nh"
+  },
+  "v1.20.1": {
+    "tag_name": "v1.20.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.1",
+    "hash": "03kv20y0kfninmqxyhzbpbmaj3kal2bxyspg8ycl3g6ig6qhbqqf"
+  },
+  "v1.20.2": {
+    "tag_name": "v1.20.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.2",
+    "hash": "0kscx58p0gi2a6idxi9925sq5fhljrh1xxp8z496i039h2nmfi1r"
+  },
+  "v1.17.16": {
+    "tag_name": "v1.17.16",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.16",
+    "hash": "1z81r6xiwywq33gszwmmzv627if0bjjxdf5qqfxzh6r75mv1i3r7"
+  },
+  "v1.19.8": {
+    "tag_name": "v1.19.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.8",
+    "hash": "1hw4r3lik41fpy03bawbyi9cf8w6q21mwxypw09r7qi596ns17pg"
+  },
+  "v1.19.7": {
+    "tag_name": "v1.19.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.7",
+    "hash": "0c6s5blnmmcz86gmhha6k6j4032bvzsa3jh7yzxqbfhj7yl83dn2"
+  },
+  "v1.17.15": {
+    "tag_name": "v1.17.15",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.15",
+    "hash": "1jbnxa31zcm4xslr8fbi17wfnbngjbkjfz5i5f9ny9jjdbm6qdbb"
+  },
+  "v1.17.17": {
+    "tag_name": "v1.17.17",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.17",
+    "hash": "0198ivp6v17l96xg962bi8z4v7ad0fhwmbwp93wbdi5svhnhbwgb"
+  },
+  "v1.19.5": {
+    "tag_name": "v1.19.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.5",
+    "hash": "15k26yjagzcpnv3iafw06ahy3n8mjvmzk6rjd35pnp9b682bn120"
+  },
+  "v1.18.12": {
+    "tag_name": "v1.18.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.12",
+    "hash": "189f2lnliapdcshj1mbda3kjfvkx3izvinp8843ijlrg9ffwmp0m"
+  },
+  "v1.18.9": {
+    "tag_name": "v1.18.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.9",
+    "hash": "04wmj89xc98xrrdd9vy5wvmmwjswpn473qvi2r7blqz9f11k4fia"
+  },
+  "v1.17.13": {
+    "tag_name": "v1.17.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.13",
+    "hash": "1zif8jci5iv6vh4blhin14bkz3ywi392pdck5w9hlrxalfdb30yq"
+  },
+  "v1.17.12": {
+    "tag_name": "v1.17.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.12",
+    "hash": "0ihyvsid0v8rc419wkg463990ppx6lgkwjqjfscgasxblb40r4yq"
+  },
+  "v1.20.0": {
+    "tag_name": "v1.20.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.20.0",
+    "hash": "06dq3bkmnggsbb6jdwys8n7p303lhcr00f5dsadvfhynjc5lc3jb"
+  },
+  "v1.19.6": {
+    "tag_name": "v1.19.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.6",
+    "hash": "15hnymfz7cynf9zdv1yqs2bcqmxmvb566q1p8j3h9zqiw0p2wxxs"
+  },
+  "v1.18.10": {
+    "tag_name": "v1.18.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.10",
+    "hash": "1zxai7fnvb9vw1g4fh705j3vqrzfzv1kaxsy8sw1qvz7g3i0lrwa"
+  },
+  "v1.19.3": {
+    "tag_name": "v1.19.3",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.3",
+    "hash": "0zvp58i5nvmgf93z4dmvcxagmyxzh4pcni7jngpjsykg6maprf5h"
+  },
+  "v1.19.1": {
+    "tag_name": "v1.19.1",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.1",
+    "hash": "0jhwl26825zh9mqsg1sqwll237c0na4s6kvx39jmax16xk2dx3n8"
+  },
+  "v1.19.2": {
+    "tag_name": "v1.19.2",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.2",
+    "hash": "1mwlmbqgril3x7q7jxn4y1l0y35g4z5nmv0n09974g5sp0cdz1jg"
+  },
+  "v1.19.4": {
+    "tag_name": "v1.19.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.4",
+    "hash": "0la86bkkrx3gkgw3ijgm76qh28rzpnqx0a7fmz71jhx23hm8w7pa"
+  },
+  "v1.16.15": {
+    "tag_name": "v1.16.15",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.15",
+    "hash": "08kzyp8gc270br3fmfqm266lsnnhq91wn4l0y8nb6cpc6q2d4bya"
+  },
+  "v1.18.13": {
+    "tag_name": "v1.18.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.13",
+    "hash": "0hj1lzhyi2133pb4wkfzf4kgh42kd8m8dki1g9xlji1w4rknn9cm"
+  },
+  "v1.16.13": {
+    "tag_name": "v1.16.13",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.13",
+    "hash": "06pp4d431l9zimlh7wyjwcw4vbj17x2dsmcd0yi05s298xrm93xl"
+  },
+  "v1.16.14": {
+    "tag_name": "v1.16.14",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.14",
+    "hash": "08wzndr547rk9jx1rihw3b33vvm5q7b0r644jpzkb8irnm4q43ps"
+  },
+  "v1.19.0": {
+    "tag_name": "v1.19.0",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.19.0",
+    "hash": "18q84xiykq9vpjp3hiwgiyk00y4572gpw3az6kzmmdflwlw4ylsm"
+  },
+  "v1.18.8": {
+    "tag_name": "v1.18.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.8",
+    "hash": "0rcqzb1yw2wwdzqalla91g5zifbf8pfgdf15r477imkcydhqchxl"
+  },
+  "v1.17.9": {
+    "tag_name": "v1.17.9",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.9",
+    "hash": "1m6bqjmdady36869am6hyp8sh5hb81dpwvqj3hl2x7cj4s87d652"
+  },
+  "v1.17.14": {
+    "tag_name": "v1.17.14",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.14",
+    "hash": "1a00ai5f7msdib964dx9n3dg86v4sj4pa9f5xmcriisp66xpzb02"
+  },
+  "v1.18.6": {
+    "tag_name": "v1.18.6",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.6",
+    "hash": "0c9zkp5rknqgsbhz252x00gs5b4ngsligpldjc0rpl8nkc4v0bsa"
+  },
+  "v1.17.11": {
+    "tag_name": "v1.17.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.11",
+    "hash": "0khjx3sq0qfhh1nywzpnxmdd5dy8f11nykcs8rfwknz81vw1lll9"
+  },
+  "v1.16.12": {
+    "tag_name": "v1.16.12",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.12",
+    "hash": "15yibxykgsdclc1hl8dxc6g2npn8p4jc8c8qs4fywpfjnlb75dfz"
+  },
+  "v1.18.4": {
+    "tag_name": "v1.18.4",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.4",
+    "hash": "0rlkhcccjqk8g1firkb4fgnmj4bc03xsrs6wj11irr5i9hxq9hpd"
+  },
+  "v1.18.5": {
+    "tag_name": "v1.18.5",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.18.5",
+    "hash": "07aq50p0v8d1dpbs0nwwz0cghcfp6lia0k2yhc5mysanazaw3axx"
+  },
+  "v1.17.8": {
+    "tag_name": "v1.17.8",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.8",
+    "hash": "0dvvb0p02ppqpzxbr399kyb8845l4qdiqikhqc5xg6jfrjvzssfg"
+  },
+  "v1.17.7": {
+    "tag_name": "v1.17.7",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.17.7",
+    "hash": "0n08k6yaxr6ndphzwwq78csn7937w1310wkf9fpg8pbxrjms86zy"
+  },
+  "v1.16.10": {
+    "tag_name": "v1.16.10",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.10",
+    "hash": "01rgmq6ncl388gj7703wjnidij4prrvzvfrh9zzd5f5j3s7d1x67"
+  },
+  "v1.16.11": {
+    "tag_name": "v1.16.11",
+    "tarball_url": "https://api.github.com/repos/kubernetes/kubernetes/tarball/v1.16.11",
+    "hash": "14n3bk34hwq29v5nwwg0yjkx434mkyi292p8szw1gppwk3shwdvf"
+  }
+}
