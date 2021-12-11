@@ -34,7 +34,5011 @@
     "root": {
       "inputs": {
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "v1_0_1": "v1_0_1",
+        "v1_0_3": "v1_0_3",
+        "v1_0_4": "v1_0_4",
+        "v1_0_6": "v1_0_6",
+        "v1_0_7": "v1_0_7",
+        "v1_10_0": "v1_10_0",
+        "v1_10_1": "v1_10_1",
+        "v1_10_10": "v1_10_10",
+        "v1_10_11": "v1_10_11",
+        "v1_10_12": "v1_10_12",
+        "v1_10_13": "v1_10_13",
+        "v1_10_2": "v1_10_2",
+        "v1_10_3": "v1_10_3",
+        "v1_10_4": "v1_10_4",
+        "v1_10_5": "v1_10_5",
+        "v1_10_6": "v1_10_6",
+        "v1_10_7": "v1_10_7",
+        "v1_10_8": "v1_10_8",
+        "v1_10_9": "v1_10_9",
+        "v1_11_0": "v1_11_0",
+        "v1_11_1": "v1_11_1",
+        "v1_11_10": "v1_11_10",
+        "v1_11_2": "v1_11_2",
+        "v1_11_3": "v1_11_3",
+        "v1_11_4": "v1_11_4",
+        "v1_11_5": "v1_11_5",
+        "v1_11_6": "v1_11_6",
+        "v1_11_7": "v1_11_7",
+        "v1_11_8": "v1_11_8",
+        "v1_11_9": "v1_11_9",
+        "v1_12_0": "v1_12_0",
+        "v1_12_1": "v1_12_1",
+        "v1_12_10": "v1_12_10",
+        "v1_12_2": "v1_12_2",
+        "v1_12_3": "v1_12_3",
+        "v1_12_4": "v1_12_4",
+        "v1_12_5": "v1_12_5",
+        "v1_12_6": "v1_12_6",
+        "v1_12_7": "v1_12_7",
+        "v1_12_8": "v1_12_8",
+        "v1_12_9": "v1_12_9",
+        "v1_13_0": "v1_13_0",
+        "v1_13_1": "v1_13_1",
+        "v1_13_10": "v1_13_10",
+        "v1_13_11": "v1_13_11",
+        "v1_13_12": "v1_13_12",
+        "v1_13_2": "v1_13_2",
+        "v1_13_3": "v1_13_3",
+        "v1_13_4": "v1_13_4",
+        "v1_13_5": "v1_13_5",
+        "v1_13_6": "v1_13_6",
+        "v1_13_7": "v1_13_7",
+        "v1_13_8": "v1_13_8",
+        "v1_13_9": "v1_13_9",
+        "v1_14_0": "v1_14_0",
+        "v1_14_1": "v1_14_1",
+        "v1_14_10": "v1_14_10",
+        "v1_14_2": "v1_14_2",
+        "v1_14_3": "v1_14_3",
+        "v1_14_4": "v1_14_4",
+        "v1_14_5": "v1_14_5",
+        "v1_14_6": "v1_14_6",
+        "v1_14_7": "v1_14_7",
+        "v1_14_8": "v1_14_8",
+        "v1_14_9": "v1_14_9",
+        "v1_15_0": "v1_15_0",
+        "v1_15_1": "v1_15_1",
+        "v1_15_10": "v1_15_10",
+        "v1_15_11": "v1_15_11",
+        "v1_15_12": "v1_15_12",
+        "v1_15_2": "v1_15_2",
+        "v1_15_3": "v1_15_3",
+        "v1_15_4": "v1_15_4",
+        "v1_15_5": "v1_15_5",
+        "v1_15_6": "v1_15_6",
+        "v1_15_7": "v1_15_7",
+        "v1_15_8": "v1_15_8",
+        "v1_15_9": "v1_15_9",
+        "v1_16_0": "v1_16_0",
+        "v1_16_1": "v1_16_1",
+        "v1_16_10": "v1_16_10",
+        "v1_16_11": "v1_16_11",
+        "v1_16_12": "v1_16_12",
+        "v1_16_13": "v1_16_13",
+        "v1_16_14": "v1_16_14",
+        "v1_16_15": "v1_16_15",
+        "v1_16_2": "v1_16_2",
+        "v1_16_3": "v1_16_3",
+        "v1_16_4": "v1_16_4",
+        "v1_16_5": "v1_16_5",
+        "v1_16_6": "v1_16_6",
+        "v1_16_7": "v1_16_7",
+        "v1_16_8": "v1_16_8",
+        "v1_16_9": "v1_16_9",
+        "v1_17_0": "v1_17_0",
+        "v1_17_1": "v1_17_1",
+        "v1_17_11": "v1_17_11",
+        "v1_17_12": "v1_17_12",
+        "v1_17_13": "v1_17_13",
+        "v1_17_14": "v1_17_14",
+        "v1_17_15": "v1_17_15",
+        "v1_17_16": "v1_17_16",
+        "v1_17_17": "v1_17_17",
+        "v1_17_2": "v1_17_2",
+        "v1_17_3": "v1_17_3",
+        "v1_17_4": "v1_17_4",
+        "v1_17_5": "v1_17_5",
+        "v1_17_6": "v1_17_6",
+        "v1_17_7": "v1_17_7",
+        "v1_17_8": "v1_17_8",
+        "v1_17_9": "v1_17_9",
+        "v1_18_0": "v1_18_0",
+        "v1_18_1": "v1_18_1",
+        "v1_18_10": "v1_18_10",
+        "v1_18_12": "v1_18_12",
+        "v1_18_13": "v1_18_13",
+        "v1_18_14": "v1_18_14",
+        "v1_18_15": "v1_18_15",
+        "v1_18_16": "v1_18_16",
+        "v1_18_17": "v1_18_17",
+        "v1_18_18": "v1_18_18",
+        "v1_18_19": "v1_18_19",
+        "v1_18_2": "v1_18_2",
+        "v1_18_20": "v1_18_20",
+        "v1_18_3": "v1_18_3",
+        "v1_18_4": "v1_18_4",
+        "v1_18_5": "v1_18_5",
+        "v1_18_6": "v1_18_6",
+        "v1_18_8": "v1_18_8",
+        "v1_18_9": "v1_18_9",
+        "v1_19_0": "v1_19_0",
+        "v1_19_1": "v1_19_1",
+        "v1_19_10": "v1_19_10",
+        "v1_19_11": "v1_19_11",
+        "v1_19_12": "v1_19_12",
+        "v1_19_13": "v1_19_13",
+        "v1_19_14": "v1_19_14",
+        "v1_19_15": "v1_19_15",
+        "v1_19_16": "v1_19_16",
+        "v1_19_2": "v1_19_2",
+        "v1_19_3": "v1_19_3",
+        "v1_19_4": "v1_19_4",
+        "v1_19_5": "v1_19_5",
+        "v1_19_6": "v1_19_6",
+        "v1_19_7": "v1_19_7",
+        "v1_19_8": "v1_19_8",
+        "v1_19_9": "v1_19_9",
+        "v1_1_1": "v1_1_1",
+        "v1_1_2": "v1_1_2",
+        "v1_1_3": "v1_1_3",
+        "v1_1_4": "v1_1_4",
+        "v1_1_7": "v1_1_7",
+        "v1_1_8": "v1_1_8",
+        "v1_20_0": "v1_20_0",
+        "v1_20_1": "v1_20_1",
+        "v1_20_10": "v1_20_10",
+        "v1_20_11": "v1_20_11",
+        "v1_20_12": "v1_20_12",
+        "v1_20_13": "v1_20_13",
+        "v1_20_2": "v1_20_2",
+        "v1_20_3": "v1_20_3",
+        "v1_20_4": "v1_20_4",
+        "v1_20_5": "v1_20_5",
+        "v1_20_6": "v1_20_6",
+        "v1_20_7": "v1_20_7",
+        "v1_20_8": "v1_20_8",
+        "v1_20_9": "v1_20_9",
+        "v1_21_0": "v1_21_0",
+        "v1_21_1": "v1_21_1",
+        "v1_21_2": "v1_21_2",
+        "v1_21_3": "v1_21_3",
+        "v1_21_4": "v1_21_4",
+        "v1_21_5": "v1_21_5",
+        "v1_21_6": "v1_21_6",
+        "v1_21_7": "v1_21_7",
+        "v1_22_0": "v1_22_0",
+        "v1_22_1": "v1_22_1",
+        "v1_22_2": "v1_22_2",
+        "v1_22_3": "v1_22_3",
+        "v1_22_4": "v1_22_4",
+        "v1_23_0": "v1_23_0",
+        "v1_2_0": "v1_2_0",
+        "v1_2_1": "v1_2_1",
+        "v1_2_2": "v1_2_2",
+        "v1_2_3": "v1_2_3",
+        "v1_2_4": "v1_2_4",
+        "v1_2_5": "v1_2_5",
+        "v1_2_6": "v1_2_6",
+        "v1_2_7": "v1_2_7",
+        "v1_3_0": "v1_3_0",
+        "v1_3_1": "v1_3_1",
+        "v1_3_10": "v1_3_10",
+        "v1_3_2": "v1_3_2",
+        "v1_3_3": "v1_3_3",
+        "v1_3_4": "v1_3_4",
+        "v1_3_5": "v1_3_5",
+        "v1_3_6": "v1_3_6",
+        "v1_3_7": "v1_3_7",
+        "v1_3_8": "v1_3_8",
+        "v1_3_9": "v1_3_9",
+        "v1_4_0": "v1_4_0",
+        "v1_4_1": "v1_4_1",
+        "v1_4_12": "v1_4_12",
+        "v1_4_3": "v1_4_3",
+        "v1_4_4": "v1_4_4",
+        "v1_4_5": "v1_4_5",
+        "v1_4_6": "v1_4_6",
+        "v1_4_7": "v1_4_7",
+        "v1_4_8": "v1_4_8",
+        "v1_4_9": "v1_4_9",
+        "v1_5_0": "v1_5_0",
+        "v1_5_1": "v1_5_1",
+        "v1_5_2": "v1_5_2",
+        "v1_5_3": "v1_5_3",
+        "v1_5_4": "v1_5_4",
+        "v1_5_5": "v1_5_5",
+        "v1_5_6": "v1_5_6",
+        "v1_5_7": "v1_5_7",
+        "v1_5_8": "v1_5_8",
+        "v1_6_0": "v1_6_0",
+        "v1_6_1": "v1_6_1",
+        "v1_6_10": "v1_6_10",
+        "v1_6_11": "v1_6_11",
+        "v1_6_12": "v1_6_12",
+        "v1_6_13": "v1_6_13",
+        "v1_6_2": "v1_6_2",
+        "v1_6_3": "v1_6_3",
+        "v1_6_4": "v1_6_4",
+        "v1_6_5": "v1_6_5",
+        "v1_6_6": "v1_6_6",
+        "v1_6_7": "v1_6_7",
+        "v1_6_8": "v1_6_8",
+        "v1_6_9": "v1_6_9",
+        "v1_7_0": "v1_7_0",
+        "v1_7_1": "v1_7_1",
+        "v1_7_10": "v1_7_10",
+        "v1_7_11": "v1_7_11",
+        "v1_7_12": "v1_7_12",
+        "v1_7_13": "v1_7_13",
+        "v1_7_14": "v1_7_14",
+        "v1_7_15": "v1_7_15",
+        "v1_7_16": "v1_7_16",
+        "v1_7_2": "v1_7_2",
+        "v1_7_3": "v1_7_3",
+        "v1_7_4": "v1_7_4",
+        "v1_7_5": "v1_7_5",
+        "v1_7_6": "v1_7_6",
+        "v1_7_7": "v1_7_7",
+        "v1_7_8": "v1_7_8",
+        "v1_7_9": "v1_7_9",
+        "v1_8_0": "v1_8_0",
+        "v1_8_1": "v1_8_1",
+        "v1_8_10": "v1_8_10",
+        "v1_8_11": "v1_8_11",
+        "v1_8_12": "v1_8_12",
+        "v1_8_13": "v1_8_13",
+        "v1_8_14": "v1_8_14",
+        "v1_8_15": "v1_8_15",
+        "v1_8_2": "v1_8_2",
+        "v1_8_3": "v1_8_3",
+        "v1_8_4": "v1_8_4",
+        "v1_8_5": "v1_8_5",
+        "v1_8_6": "v1_8_6",
+        "v1_8_7": "v1_8_7",
+        "v1_8_8": "v1_8_8",
+        "v1_8_9": "v1_8_9",
+        "v1_9_0": "v1_9_0",
+        "v1_9_1": "v1_9_1",
+        "v1_9_10": "v1_9_10",
+        "v1_9_11": "v1_9_11",
+        "v1_9_2": "v1_9_2",
+        "v1_9_3": "v1_9_3",
+        "v1_9_4": "v1_9_4",
+        "v1_9_5": "v1_9_5",
+        "v1_9_6": "v1_9_6",
+        "v1_9_7": "v1_9_7",
+        "v1_9_8": "v1_9_8",
+        "v1_9_9": "v1_9_9"
+      }
+    },
+    "v1_0_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1437173274,
+        "narHash": "sha256-KFUP7q8tdkS5SCok3w66qUHp8E0nAaYeKpRvywNZrOk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6a5c06e3d1eb27a6310a09270e4a5fb1afa93e74",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.0.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_0_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1438923419,
+        "narHash": "sha256-drvFDzBt5zAiKYBWaw92cO7Ydti9FP5/XgCRazn4kmw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "61c6ac5f350253a4dc002aee97b7db7ff01ee4ca",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.0.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_0_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1440536910,
+        "narHash": "sha256-YIKzHS4oYbSTAiy/q5PLdDOeMISVw7nbOc1gPMMJU08=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "65d28d5fd12345592405714c81cd03b9c41d41d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.0.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_0_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1441926632,
+        "narHash": "sha256-3BVnlVFiHNoTb56zfKQe5N9j6+CqPu/ZXElDPn1wXqQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "388061f00f0d9e4d641f9ed4971c775e1654579d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.0.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_0_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1445908164,
+        "narHash": "sha256-ZEgvxieEVprL3bXVoIN34gBPdGWQ+z9QQsyUg2Pjqlc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6234d6a0abd3323cd08c52602e4a91e47fc9491c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.0.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1521844465,
+        "narHash": "sha256-rJoWh2ygv6AhecFMbP8BcbBdbq0++EPRYxojDG4p1Uw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "fc32d2f3698e36b93322a3465f63a14e9f0eaead",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1523492716,
+        "narHash": "sha256-CttHfFyot1zTJ1MTmqh7flZfai0WFJvmgKhF7x7ZMNA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d4ab47518836c750f9949b9e0d387f20fb92260b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1541700660,
+        "narHash": "sha256-YjjxE6r0SA2EhirlHmzry2TgQt8AaI4lSbA9GWHlu+A=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "be1a908c6aa47e0ae1b1dc861a1de6ccfe963aa2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1543235583,
+        "narHash": "sha256-LtHDv8xct/pAcOyO5c6Sy9OPnESoak9GhPwFlyJcnB0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "637c7e288581ee40ab4ca210618a89a555b6e7e9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1545000601,
+        "narHash": "sha256-XKrA+1gR7pW8DBjFwZR9QIwmuI8BFWLmjgC0K45yApU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c757b93cf034d49af3a3b8ecee3b9639a7a11df7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1547670631,
+        "narHash": "sha256-NmfmVZd6bKO5+qwLjPSy0FPx2HRQkc2pK3AGRqtiHB4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "954ff68d59e9dc62fa8252ffa9023a90ff8a358c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1524745077,
+        "narHash": "sha256-1sR5YjJmvD4U/xaC0LH2xbRlscUxw4OD5faXTbQMSFM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "81753b10df112992bf51bbc2c2f85208aad78335",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1526728413,
+        "narHash": "sha256-lsSyF9yngl417rZK3XfZUbGwYi12EdvFefMYVVxjSdE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2bba0127d85d5a46ab4b778548be28623b32d0b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1528154266,
+        "narHash": "sha256-7a6xVdrhh6+ho2jQzcI7MJCW3aBeOgb36NMN5LGlNGA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5ca598b4ba5abb89bb773071ce452e33fb66339d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1529428532,
+        "narHash": "sha256-osdva+B8rd56e6B2QYeeCtXNb5iEsTA4BhQZOsjyysw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "32ac1c9073b132b8ba18aa830f46b77dcceb0723",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1532515807,
+        "narHash": "sha256-JZ7YQIx0BGDm6T1EQxWLjp2/r3Kn43VsHfk8uagRRZY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a21fdbd78dde8f5447f5f6c331f7eb6f80bd684e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1534525653,
+        "narHash": "sha256-rpcr4r2ZV+04K6fbbHVC9ROcD2PPCFDxxFcWGegFy8E=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0c38c362511b20a098d7cd855f1314dad92c2780",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1536851835,
+        "narHash": "sha256-ogXW9i2zSUbqOAd9sd+5RL+xRXydFW7+N4S2PFkTOO8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7eab6a49736cc7b01869a15f9f05dc5b49efb9fc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_10_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1539526759,
+        "narHash": "sha256-PTPEkw8Ph1FyNHLwgwY/lFR8e/gjQvGsu7IOgJHsKtM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e6ab4ee54f71e7a403cc733534bab86fd959ecb7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.10.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1530129342,
+        "narHash": "sha256-Q3rpI6FNKtnaKp8EcNPIEqpgAFhrL+QflvSFXmA9o9E=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "91e7b4fd31fcd3d5f436da26c980becec37ceefe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1531801229,
+        "narHash": "sha256-6i8OcLj8+0OcYdaSQZN7/JYbz2xVueNHKdNYF6kKodw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b1b29978270dc22fecc592ac55d903350454310a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1556541383,
+        "narHash": "sha256-TKcHuL6xvLIhtI4WzV5j7ZSpkRllBCEe657U3rAWUD4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7a578febe155a7366767abce40d8a16795a96371",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1533628147,
+        "narHash": "sha256-FuB9Bxjy/y6rQIzPnNguTyDDiC+9oHfsaZoGLf8G/nM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "bb9ffb1654d4a729bb4cec18ff088eacc153c239",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1536369982,
+        "narHash": "sha256-6++GBGTKrqX5lAHC0V6tAcq1eUOOg8Pw2E0BmvQri78=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a4529464e4629c21224b3d52edfe0ea91b072862",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1540244110,
+        "narHash": "sha256-K40tgTpApDjaYtf+nWfQ7rbW2raiPJIvMg9NRAGZqh4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "bf9a868e8ea3d3a8fa53cbb22f566771b3f8068b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1543235484,
+        "narHash": "sha256-0jJZ5JhpM5u+TALdF6HWHh4EZ092djeC6FoYashm1kU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "753b2dbc622f5cc417845f0ff8a77f539a4213ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1544758371,
+        "narHash": "sha256-KlEbpARm2REX80zMrNBpCmNHlEJDxV8A9I+gagqAk1w=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b1d75deca493a24a2f87eb1efde1a569e52fc8d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1547804866,
+        "narHash": "sha256-bqvurE5oIhpmKVosoyRhSnS8Bbp6ZOAAajpObs1NuA0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "65ecaf0671341311ce6aea0edab46ee69f65d59e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1550886187,
+        "narHash": "sha256-Lmj8pxtDQnP6AU1838TARK9AHjTG2BdGVKQx3z4a3eA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4e209c9383fa00631d124c8adcc011d617339b3c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_11_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1553209938,
+        "narHash": "sha256-mGcTPaFtZ4AywurhpwSiDLc7QZXFNpS7TGPwWF47TWw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "16236ce91790d4c75b79f6ce96841db1c843e7d2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.11.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1537913585,
+        "narHash": "sha256-mni9LxEsd43XL+Cssk5h8eynrbklFuyePw73FGmGzi4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0ed33881dc4355495f623c6f22e7dd0b7632b7c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1538756766,
+        "narHash": "sha256-7ItRXYQplVLCDQjWZ406fWmHnW+yNZImiYkjAG7ZoL4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4ed3216f3ec431b140b1d899130a69fc671678f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1561865384,
+        "narHash": "sha256-UP6v7sV8a7PaUvfa1VcCaqwFRZ2fllnNGx50ujAeIqE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e3c134023df5dea457638b614ee17ef234dc34a6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1540360231,
+        "narHash": "sha256-3PH/JgA6U8+TCplt+tHwA4i0dxjQL2JOK160i7g/h5M=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "17c77c7898218073f14c8d573582e8d2313dc740",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1543235866,
+        "narHash": "sha256-TWBD5YtIrsdbYPl6TfEgTbu5m6O+0KiBW1HDsz8+Qng=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "435f92c719f279a3a67808c80521ea17d5715c66",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1544673924,
+        "narHash": "sha256-UTXjRCLxcuxbWvJEaqXouSRw62DtiGwHzTPevoDvkDs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f49fa022dbe63faafd0da106ef7e05a29721d3f1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1547570935,
+        "narHash": "sha256-yRrpgVVQcztHkwXXWUFS67qcUYHctCbiPD0nxghxxq8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "51dd616cdd25d6ee22c83a858773b607328a18ec",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1551164898,
+        "narHash": "sha256-7lUmh6ZuCWPdS8HuAxAJhA1gHGUypW8jYKS6ToyAPF0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ab91afd7062d4240e95e51ac00a18bd58fddd365",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1553228188,
+        "narHash": "sha256-6YeA89YCBquJ1xIE05pbjS6O5FOMSiuNwwaofB5lkQA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6f482974b76db3f1e0f5d24605a9d1d38fad9a2b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1555913984,
+        "narHash": "sha256-DBS9tAv9BgzuKQuTzGjXsY9h/A4xMZKETWO2zUYMj5g=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a89f8c11a5f4f132503edbc4918c98518fd504e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_12_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1558587625,
+        "narHash": "sha256-FfQN/6x50YH77THR8JeqTphKI9K8cPUVGLJyYCjfuTs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e09f5c40b55c91f681a46ee17f9bc447eeacee57",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.12.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1543621204,
+        "narHash": "sha256-qQ5PLdZb2d+s8Hl19vKcbLJFFIF6tJtqXtfIs0cBsmo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ddf47ac13c1a9483ea035a79cd7c10005ff21a6d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1544620171,
+        "narHash": "sha256-aiff1Beagd3CCJOfsplTnsTU2GwtUROzki3s83OcDBE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "eec55b9ba98609a46fee712359c7b5b365bdd920",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1566076926,
+        "narHash": "sha256-/Pjy7n0L8DuPoQBL+vRNgsowSsiFaK5UVOfYC5imK3U=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "37d169313237cb4ceb2cc4bef300f2ae3053c1a2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1568413320,
+        "narHash": "sha256-mp+V1pX794scdO2im3lC30qn9Mkod5rEO70KWXsINIM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "25074a190ef2a07d8b0ed38734f2cb373edfb868",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1570614591,
+        "narHash": "sha256-zaXxErafi/NyJHRq/NJG73rrbBRli3dtAr8bATrHyxY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a8b52209ee172232b6db7a6e0ce2adc77458829f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1547020561,
+        "narHash": "sha256-D70gHmjRrtotlWo1XUYfD/5AlH6m+7WMWgERNuz3vsg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "cff46ab41ff0bb44d8584413b598ad8360ec1def",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1549042839,
+        "narHash": "sha256-X1Ahmh7w3YYlqJznNMLkKnAqPS40H+rOJhQHUNgRl7k=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "721bfa751924da8d1680787490c54b9179b1fed0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1551251410,
+        "narHash": "sha256-qZtKUH9pH641dT7Nu0HL0T4PVfP50EuM/zZlZwJhbeA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c27b913fddd1a6c480c229191a087698aa92f0b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1553286695,
+        "narHash": "sha256-3ijxnQyG81/ECVj0wL2ziHCdlk7+lNx1Gxrrbw4k7ho=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2166946f41b36dea2c4626f90a77706f426cdea2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1557252874,
+        "narHash": "sha256-uFOuWWm8BzfTCW/jcOPTGw78pzikoeVwCHT+QEQXYQs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "abdda3f9fefa29172298a2e42f5102e777a8ec25",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1559675633,
+        "narHash": "sha256-4w/GNzB7eG1S4vp4leZL43e1s59lovQthoHs36FdawQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4683545293d792934a7a7e12f2cc47d20b2dd01b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1562239333,
+        "narHash": "sha256-M0ndMGqbsaah9X/5ZIDu348WGKCxTuikhOMFqSJZ6hM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0c6d31a99f81476dfc9871ba3cf3f597bec29b58",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_13_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564703753,
+        "narHash": "sha256-6HnQ+CksYTrYflStD14U0Nfu3ugRhyf2Z4X2iEbr3DY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3e4f6a92de5f259ef313ad876bb008897f6a98f0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.13.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1553147496,
+        "narHash": "sha256-y6iMHrSZn+iNLD2KKw8z6pKwbT4muqJiWF/0x4Ge020=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "641856db18352033a0d96dbc99153fa3b27298e5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1554504629,
+        "narHash": "sha256-QRCpwRVuuJGwtUdJF8uKyx9Kge/ddOeuA0n4zG2y1LM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b7394102d6ef778017f2ca4046abbaa23b88c290",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1576066221,
+        "narHash": "sha256-xO4S94rnooFpn9ZyPN5F5zgC4kq/GFIxexhEh0GValI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "575467a0eaf3ca1f20eb86215b3bde40a5ae617a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1557828077,
+        "narHash": "sha256-4h2TupbfpThzZ8/BJsVuInqeUpyiqeJkEcenWFgBS54=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "66049e3b21efe110454d67df4fa62b08ea79a19b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1559672153,
+        "narHash": "sha256-PxTjT+4ALyZXBY72ODTL5UMsyWAT5qubQ3+1hZzWYeQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5e53fd6bc17c0dec8434817e69b04a25d8ae0ff0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1562239093,
+        "narHash": "sha256-bA4Smg4l7P/nqu3JXGJYI4s+lObHZxLe8aoJFNfpTaM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a87e9a978f65a8303aa9467537aa59c18122cbf9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564703753,
+        "narHash": "sha256-/u+vYUctd+4vmX2XKaSWJZkAGELoi9OcicwLUN1ZCqg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0e9fcb426b100a2aea5ed5c25b3d8cfbb01a8acf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1565991252,
+        "narHash": "sha256-7gzU0MJbZEPlLtlcciCpmfUWdnmjF8dY84SwisllUCU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "96fac5cd13a5dc064f7d9f4f23030a6aeface6cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1568426320,
+        "narHash": "sha256-k0h2lTMmi3c/fzcepBN9EictD3Dt4wWa4/X7h/p1j8g=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8fca2ec50a6133511b771a11559e24191b1aa2b4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1570853558,
+        "narHash": "sha256-hEppfj1q2Rmfw5VmyZuTy/6a+MB3i7fjBWcAnwsfPjM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "211047e9a1922595eaa3a1127ed365e9299a6c23",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_14_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1573279539,
+        "narHash": "sha256-vzDF8NcFT2UQ6n4y+SPnq7psmrgETuc0qAl6zMeXuF0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "500f5aba80d71253cc01ac6a8622b8377f4a7ef9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.14.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1560560289,
+        "narHash": "sha256-nsW/VCn3INEYPyKD3n+1HKH+TqkycMCbSTgkB2Ty9CY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e8462b5b5dc2584fdcd18e6bcfe9f1e4d970a529",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1562729198,
+        "narHash": "sha256-ncHvG5sX1/b4HjkfQkQ1enPoFdAzF+Dopd4gWCpVNuU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4485c6f18cee9a5d3c3b4e523bd27972b1b53892",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1581451474,
+        "narHash": "sha256-OUSE8dFJHHDa9ZrZ1Jf3vPpn+8D1KGOl7mv76NHv858=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1bea6c00a7055edef03f1d4bb58b773fa8917f11",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1584046758,
+        "narHash": "sha256-XRuSYkma363STuZa5NVVdHmodd+zJblGlRolnVhfXtg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d94a81c724ea8e1ccc9002d89b7fe81d58f89ede",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1588741742,
+        "narHash": "sha256-ti9VrFk5BWwafsiofWN48Z/Eqzf6ymzjnLF2RiAGIZg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e2a822d9f3c2fdb5c9bfbe64313cf9f657f0a725",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1564703632,
+        "narHash": "sha256-EIZsLyoHkjb3RpjD9qbdcKlr8LEYwQz79yBIPjTuURc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f6278300bebbb750328ac16ee6dd3aa7d3549568",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1565997250,
+        "narHash": "sha256-4W+04lXWsVOp+sLPBaR0zTk99rMsgA/WrluXiOrJVW0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2d3c76f9091b6bec110a5e63777c332469e0cba2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1568415720,
+        "narHash": "sha256-t4iq9fn1pjJlqyKreyqJYGBJcD9BvPfQI5rGsF7Gl6M=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "67d2fcf276fcd9cf743ad4be9a9ef5828adc082f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1570843840,
+        "narHash": "sha256-cH1+6hEt58pkUALV1r+kBykQQWSyObfUheAPc90B2go=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "20c265fef0741dd71a66480e35bd69f18351daea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1573277499,
+        "narHash": "sha256-rOB7y+HSOqzeQASbJ2AELRyOa7i+muurwdycKK+y6HM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7015f71e75f670eb9e7ebd4b5749639d42e20079",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1576066255,
+        "narHash": "sha256-DC/VHMJ4NKngaiXJhoCYFD9mdPA7ChR06i7QwMIQ5sI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6c143d35bb11d74970e7bc0b6c45b6bfdffc0bd4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1578706790,
+        "narHash": "sha256-zbOLutV3yDsAD2WOUq5yPMk0NBTJTZWIczSb/tnUL1Q=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "14ede42c4fe699a7078b566d89abc160f26857a2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_15_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1579303569,
+        "narHash": "sha256-EdlaFXb55kiUbDSchRrj29/KJFGGdqQlugr2eJun/mI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2e808b7cb054ee242b68e62455323aa783991f03",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.15.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1568386613,
+        "narHash": "sha256-UUS9ARgzW7nBL+EN1ZUd6Yhkpdt8NWGVd/BcZrqDss8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2bd9643cee5b3b3a5ecbd3af49d09018f0773c77",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1569904652,
+        "narHash": "sha256-0MF0hzBRQVnb9mh1r2dD/e+52JxwGdmoz5ZlNmndGzU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d647ddbd755faf07169599a625faf302ffc34458",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589982666,
+        "narHash": "sha256-c54krYYAd/a50I/+Jz84/WwTfH9FnsfTSI7pVgwDn5A=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f3add640dbcd4f3c33a7749f38baaac0b3fe810d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1592394040,
+        "narHash": "sha256-TyCdO5wDPBg+mIX/aQDJLcjl6grS2TSIl2TUONpO8MI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "436254b798f772bcb8e67dcfe122e46500eeb254",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1593142360,
+        "narHash": "sha256-DwVHIzOWAzlUtQPknEYA0yfcZJEBAE75r/DlckDdt3g=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "17c50ce2d686f4346924935063e3a431360e0db7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594829368,
+        "narHash": "sha256-cZve9NEridohMtNrQAMRSNMWb+0jxLMQPG+XnIV0MnI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "39a145ca3413079bcb9c80846488786fed5fe1cb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1597321443,
+        "narHash": "sha256-v1LACC0kAfzprqUxb7W8262XEa+WMUSNtAMHfgYDyVU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d2a081c8e14e21e28fe5bdfa38a817ef9c0bb8e3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.14",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_15": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1599046235,
+        "narHash": "sha256-kEOeCuMgfOdkoukTi3Kuma1fpTNJXsol0a2lOOMUKlc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2adc8d7091e89b6e3ca8d048140618ec89b39369",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.15",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1570855357,
+        "narHash": "sha256-t6UOZA6l5T4mpNlnH59zYcpzMCz/qrNo+SfxePAxn5E=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c97fe5036ef3df2967d086711e6c0c405941e14b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1573425816,
+        "narHash": "sha256-A4q3O/EeWCSJqRbF1w6C6Y3c6IkTg1wEtPMoJWY8U2g=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b3cbbae08ec52a7fc73d334838e18d17e8512749",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1576066267,
+        "narHash": "sha256-wxroO8RbtgjdIC9ZbSVqU7uWp/FXw6PZZHvBPn/lNxc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "224be7bdce5a9dd0c2fd0d46b83865648e2fe0ba",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1578706897,
+        "narHash": "sha256-lfRnCc+NsS1c3bkI1VWNkbtChyQt3nhPYqCtJ3U6eoo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e7f962ba86f4ce7033828210ca3556393c377bcc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1579303089,
+        "narHash": "sha256-zL1Huupg8fADqX9p9xg28Kd+NxCIEPcHP6zAeNmMa30=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "72c30166b2105cd7d3350f2c28a219e6abcd79eb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1581449031,
+        "narHash": "sha256-HA6OsFdoMn5wn8+GjNgEGfIdeNHwX7ZOml8ZPbhgM1U=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "be3d344ed06bff7a4fc60656200a93c74f31f9a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1584046295,
+        "narHash": "sha256-zDRfej9O7RytNFnBzQ7u0v5ACbzU4c5McHK1KTJo5LM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ec6eb119b81be488b030e849b9e64fda4caaf33c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_16_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1587036928,
+        "narHash": "sha256-5Is8KcyCsMET5zS3/wWab8ExiB5nc/1fITphHhU1Km8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a17149e1a189050796ced469dbd78d380f2ed5ef",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.16.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1575595503,
+        "narHash": "sha256-RlYdUhCRm2ngiYJH9b5cbB5WZ6C7i00+e9QANtQDlWU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "70132b0f130acc0bed193d9ba59dd186f0e634cf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1578707017,
+        "narHash": "sha256-Jinql354RCKF1u8DptJe03Witbx5edNDsV0PEcuduDo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d224476cd0730baca2b6e357d144171ed74192d6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1597331454,
+        "narHash": "sha256-n6vqrmBC51cDd11e0q3+iYsQuKVe8UsHRXbkW5Us018=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ea5f00d93211b7c80247bf607cfa422ad6fb5347",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1600263084,
+        "narHash": "sha256-A/9g/fqKxSc/8chRBkHZ+uc4zEzBw5Z1oQfC+qBD7tg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5ec472285121eb6c451e515bc0a7201413872fa3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602723511,
+        "narHash": "sha256-dYoVVP/T+DLx7C/OyXgGsFFWx/wo4nw+3qOSIk7FnV0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "30d651da517185653e34e7ab99a792be6a3d9495",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1605099789,
+        "narHash": "sha256-aY0kPlzMO5WyaxpnSfwUco9RnUe4Orvcy7oM52yQhy4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f238f5142728be4033c37aa0ad69bf806090beae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.14",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_15": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1607081880,
+        "narHash": "sha256-Arbu0Xh3GEq6GQ8v8l8p141WEsSQftVBifsKT9DZ/RE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "737e2c461a2999fa242d39e77b9252d0eee7167e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.15",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608293189,
+        "narHash": "sha256-OboUHtWTwmGw2Z8p+4h8EpUabaQPrniI/ZgGDYkaZh0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d88fadbd65c5e8bde22630d251766a634c7613b0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.16",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_17": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1610543539,
+        "narHash": "sha256-0CF6N+ZmJ0jH48ThmByUxrY4Xb50cC2wBhHulvzjt1A=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f3abc15296f3a3f54e4ee42e830c61047b13895f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.17",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1579306689,
+        "narHash": "sha256-g0YwK5fr8eVXRfeCuamtNYiW7g+j5Ke81ro4XTuv7G4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "59603c6e503c87169aea6106f57b9f242f64df89",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1581444386,
+        "narHash": "sha256-kauwyLNrfVETtPODHXZiJ6aQzIeoBJIkWphniP5nWDE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "06ad960bfd03b39c8310aaf92d1e7c12ce618213",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1584046471,
+        "narHash": "sha256-lfA+6A2fm5nKNl+tDvB/2VFlf+zRMPW+nXJ5JxWGtUY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8d8aa39598534325ad77120c120a22b3a990b5ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1587036897,
+        "narHash": "sha256-yQilSa6NyTUG4MPw6p1jeW/0vw+6IwyikawXXi6Yzko=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e0fccafd69541e3750d460ba0f9743b90336f24f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589980065,
+        "narHash": "sha256-nsGYg3uD/Xo5khdz9Sw5Kf0d9vQgzHcM8+DUoZsmvQM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d32e40e20d167e103faf894261614c5b45c44198",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1592393491,
+        "narHash": "sha256-lRb0sC2cMnU/df7EjEn6FDMYCiBVDvyPJFXimdipnPA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b4455102ef392bf7d594ef96b97a4caa79d729d9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1593142514,
+        "narHash": "sha256-EPsUwiYM5nPPUuJgn5rAWBjY8p2qBwm4tZDXN1GqSEg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "35dc4cdc26cfcb6614059c4c6e836e5f0dc61dee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_17_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594829397,
+        "narHash": "sha256-DIrKhLJlHWTYnmlJDBtflOO+7sOcBraV3GEucWNeTEA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4fb7ed12476d57b8437ada90b4f93b17ffaeed99",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.17.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1585147792,
+        "narHash": "sha256-3IW60hbSKrD7Efx31I136cXs3GvKO7/G4alfDpUi5co=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9e991415386e4cf155a24b1da15becaa390438d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1586366995,
+        "narHash": "sha256-hm5YzPTEomJDbDztunluMy1n3HtR9wr9291hLAFMIPw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7879fc12a63337efff607952a323df90cdc7a335",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602726182,
+        "narHash": "sha256-O3YWeq3mAkaKRWSk6mUu1jTe6GM0moBVYM+pBx0sE7g=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "62876fc6d93e891aa7fbe19771e6a6c03773b0f7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1605172225,
+        "narHash": "sha256-bALGdWlMgA676EjSJorI+WS+BzNNoFNjUtIqELzmah4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7cd5e9086de8ae25d6a1514d0c87bac67ca4a481",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1607082119,
+        "narHash": "sha256-ANkPH2mR3PrAsDZrD7h+vfW06jyZ4klC8rq7AeUnMtA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4c00c3c459261e8ff3381c1070ddf798f0131956",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608292910,
+        "narHash": "sha256-zPofImKaxabdAiqvgCdwwdtXvvYqrghIVCjcLtcegJs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "89182bdd065fbcaffefec691908a739d161efc03",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.14",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_15": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1610543600,
+        "narHash": "sha256-rtcntfkvOlm6hvWWCZtpUjPDaD9bs8m0mKJ3xiUkuCM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "73dd5c840662bb066a146d0871216333181f4b64",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.15",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613562704,
+        "narHash": "sha256-osV18ulOGEBt4oEH3nsZHBwYLW9Srwfa54/NXEikxdI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7a98bb2b7c9112935387825f2fce1b7d40b76236",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.16",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_17": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616028798,
+        "narHash": "sha256-WlAWPmJqOo+RZTG19scnZ32uPAjoptSUq3f86OPuf7I=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "68b4e26caf6ede7af577db4af62fb405b4dd47e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.17",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_18": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1618456977,
+        "narHash": "sha256-kA1mcWuYbZIEHDf36uuTV51dul7WaLlvhOrKLzIcPcw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6f6ce59dc8fefde25a3ba0ef0047f4ec6662ef24",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.18",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_19": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620818473,
+        "narHash": "sha256-M1oiPntdT55tPLArLsfGSP5GOsdkucQD0+fyYmOIsZQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ac0cc736d0018d817c763083945e4db863168d12",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.19",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1587037663,
+        "narHash": "sha256-Xqq1JJLH+ZCVU0yeipQUHmJdeT+Sj6viKTIqs/MgML0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "52c56ce7a8272c798dbc29846288d7cd9fbae032",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_20": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623847836,
+        "narHash": "sha256-5tCnt37sFaTQPlO5SZZ0muftVSI6sZ29YVfCvlPF+V4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1f3e19b7beb1cc0110255668c4238ed63dadb7ad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.20",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1589978560,
+        "narHash": "sha256-CAIFr930IUh8IDD5G83TUVVUrUBgiEj01h51cqr3Jgc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2e7996e3e2712684bc73f0dec0200d64eec7fe40",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1592393589,
+        "narHash": "sha256-ppwRQwzsHAAkqLv0lS4mk1twvAjnnvKOn/5651JhEYY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c96aede7b5205121079932896c4ad89bb93260af",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1593142710,
+        "narHash": "sha256-JtMzlvrsIPs215A0o9QTpllnjkf1X/K8+5PHV/Bvh14=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e6503f8d8f769ace2f338794c914a96fc335df0f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1594831812,
+        "narHash": "sha256-W/qiXDnViBMwPTFRM3xLVUgFDTZ4CLWH6A+sT5XWTEY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "dff82dc0de47299ab66c83c626e08b245ab19037",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1597334605,
+        "narHash": "sha256-tuwWaIinsQNqZJ6fYMSal9iss1I6IUeFo5Qvv3p/XLc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9f2892aab98fe339f3bd70e3c470144299398ace",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_18_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1600264008,
+        "narHash": "sha256-5u+fCv1jf5NTo8tUfJyNroGpBMu3a5trwutTsUSvWsY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "94f372e501c973a7fa9eb40ec9ebd2fe7ca69848",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.18.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1598451725,
+        "narHash": "sha256-uDhaYPFwX/NMEB4nSy0HDSa0RWlrc/bAIQSxyyuSUTI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e19964183377d0ec2052d1f1fa930c4d7575bd50",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1599650240,
+        "narHash": "sha256-WFGZ4e+u77odr347WgcfdFfVtlqNQqjRYgeTQLPg1PI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "206bcadf021e76c27513500ca24182692aabd17e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1618456771,
+        "narHash": "sha256-40Ek3hBGdT8EAKNUCraReTe0UTRgzG2bUfgfYAo0Ui4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "98d5dc5d36d34a7ee13368a7893dcb400ec4e566",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620821909,
+        "narHash": "sha256-gpVSzzLPVYNAVtQ827wgj1uKWOj8ZWrSNJDKoJ5mBck=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c6a2f08fc4378c5381dd948d9ad9d1080e3e6b33",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623847911,
+        "narHash": "sha256-8ZNpHCnN26pIbbCvpkCjbjwWhTzpp9nzPxSmwEL/ynU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2cb4598553d0a2ca5f3eb7980c99cd8236cc5011",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626382347,
+        "narHash": "sha256-mNnD7sM5G20zCprfPxNQtnEXs2ZaQ5vSGgrf8EYkz3I=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "53c7b65d4531a749cd3a7004c5212d23daa044a9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628704883,
+        "narHash": "sha256-iFJbZ9cuqYTbDqNsLuxmzMVCG/Qt2Kc2ikVQGxVyBSQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0fd2b5afdfe3134d6e1531365fdb37dd11f54d1c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.14",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_15": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631733425,
+        "narHash": "sha256-Sx7Uxh+TgZNkG+4qoz8x9TXIYoAqrDfa0KYpgnEgrSg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "58178e7f7aab455bc8de88d3bdd314b64141e7ee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.15",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635351556,
+        "narHash": "sha256-mrP526J29Pjna+TYM6SBMCwSMltm+irfYDec0zgZLrA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e37e4ab4cc8dcda84f1344dda47a97bb1927d074",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.16",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1600263116,
+        "narHash": "sha256-e1EYwojhTAwWo0zSsXSplEiu8EBTnA9HtFRvTzmk7yo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f5743093fd1c663cb0cbc89748f730662345d44d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1602679177,
+        "narHash": "sha256-OyD+uNZfXP/31pjywMu2Kw1t8nDfvCMGzLPKOX1+8zo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1e11e4a2108024935ecfcb2912226cedeafd99df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1605100100,
+        "narHash": "sha256-kW+PxSAXFsWLRcaUxpccpzfHHcV115x103/SmWHU8RU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d360454c9bcd1634cf4cc52d1867af5491dc9c5f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1607093279,
+        "narHash": "sha256-X3QpBbFN47sSeYCwmc6YGQWtG2tJiS9cGKcT6YAwe5U=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e338cf2c6d297aa603b50ad3a301f761b4173aa6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608292842,
+        "narHash": "sha256-lI5cIYm4A4UDoaMEYbsjl972CcA0k/CZGozPEc6lmGw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "fbf646b339dc52336b55d8ec85c181981b86331a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1610543665,
+        "narHash": "sha256-YrHjNSgR9o4FOOjTyy5f7dOLagQQynsoBOmdxrmkApo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1dd5338295409edcfff11505e7bb246f0d325d15",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613565127,
+        "narHash": "sha256-Y0uAy91202E2ZLKkXgX8c6wRu/WVZdatixjSdqUEdAY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "fd5d41537aee486160ad9b5356a9d82363273721",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_19_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616029146,
+        "narHash": "sha256-F5db/+15gGoEFbW4y97RqwW7F35qCCPOadeN+p5cghg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9dd794e454ac32d97cde41ae10be801ae98f75df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.19.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_1_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1447084605,
+        "narHash": "sha256-y03A/bTG6GnoU1WotaQNSaARIqtN9UWIwRnw74NnqW4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "92635e23dfafb2ddc828c8ac6c03c7a7205a84d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.1.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_1_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1447891968,
+        "narHash": "sha256-g7i2bGuZwAkAU2xy1zJFxHWLfCEce8dmUIuFRS5IvnY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3085895b8a70a3d985e9320a098e74f545546171",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.1.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_1_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1449512366,
+        "narHash": "sha256-U9bdust6TCMNSTo7qsRbUdTAIrTf6l++Bk9sYZ2ZNQM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6a81b50c7e97bbe0ade075de55ab4fa34f049dc2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.1.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_1_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1452297172,
+        "narHash": "sha256-9T+jfLWPaAHHUaMeatKaSnZS81JPxeXHjC6owKFwcJU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a5949fea3a91d6a50f40a5684e05879080a4c61d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.1.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_1_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1453932388,
+        "narHash": "sha256-iadoGPg9nCDc+vRBN5xO1fQY8hm37wehrMIoHvtEAHA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e4e6878293a339e4087dae684647c9e53f1cf9f0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.1.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_1_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1456251667,
+        "narHash": "sha256-acKauDdu5JVS0Xyqt2Ogjh6yJa0HbeqDr+Zm6F5RtDU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a8af33dc07ee08defa2d503f81e7deea32dd1d3b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.1.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1607118325,
+        "narHash": "sha256-fphKs67aKOLzZAHPCJfYKVG/Dluf33gt6SEV8AWqdyo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "af46c47ce925f4c4ad5cc8d1fca46c7b77d13b38",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1608292789,
+        "narHash": "sha256-FZtFyLAOPBZxv0gFva4Gd5Ce51LitKAGCVev7DSvuRc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c4d752765b3bbac2237bf87cf0b1c2e307844666",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628704774,
+        "narHash": "sha256-57Cs2/AVHmnT5uS0Tp0NQZLOovUKOkeX87/stx6ZtXY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8152330a2b6ca3621196e62966ef761b8f5a61bb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631733326,
+        "narHash": "sha256-bJwixxrY+gC28qAdq6xAN4FumBRWT5dzpEGvrwTuv3w=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "27522a29febbcc4badac257763044d0d90c11abd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635354379,
+        "narHash": "sha256-cfypR1jUBdt13V0CZlW3/n5kgvX2uXUrBA0F3F/Ne4U=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4bf2e32bb2b9fdeea19ff7cdc1fb51fb295ec407",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1637153970,
+        "narHash": "sha256-slat0pAOb/gNQ8wl2AAz9Alf0/IliQ+wsUQ7Qm+qNEE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2444b3347a2c45eb965b182fb836e1f51dc61b70",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1610543941,
+        "narHash": "sha256-6jsLgI+N40uht+NWeRjQjVOH/BFIwz6GPxp5ctL0PrY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "faecb196815e248d3ecfb03c680a4507229c2a56",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613565290,
+        "narHash": "sha256-CfhV96ldWuU5Er5qYdnjrFSuiidH0nX/05PSQKv9HHo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "01849e73f3c86211f05533c2e807736e776fcf29",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1613664121,
+        "narHash": "sha256-r9Clwr+87Ns4VXUW9F6cgks+LknY39ngbQgZ5UMZ0Vo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e87da0bd6e03ec3fea7933c4b5263d151aafd07c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1616029261,
+        "narHash": "sha256-RDaD7tlTtAucW8ido9FumKb5E9n6F9H8HwxQ9TPyOLk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6b1d87acf3c8253c123756b9e61dac642678305f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1618456723,
+        "narHash": "sha256-oo+ejuSbqkOTPOuY4cA8+M6vqYwykTTYpXCfQrmFs/Q=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8a62859e515889f07e3e3be6a1080413f17cf2c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620822716,
+        "narHash": "sha256-Vn80UOiA4cLUNIbhwJkBLCPmgbk/e6pvqz6RVb1FrB8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "132a687512d7fb058d0f5890f07d4121b3f0a2e2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623847930,
+        "narHash": "sha256-A3GTqEIdVJFm0fEeo5dQNLLTlENOblT/rRuabvWUXnE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5575935422cc1cf5169dfc8847cb587aa47bac5a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_20_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626382542,
+        "narHash": "sha256-lDHQDklJINRMkpEOr8J5Agob3tbOFIetrEzYI2JEa8k=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7a576bc3935a6b555e33346fd73ad77c925e9e4a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.20.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1617899045,
+        "narHash": "sha256-5IUcKVbHxL5qb7M087sZSsd50t5zSaeWATnyLHkVsRU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "cb303e613a121a29364f75cc67d3d580833a7479",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1620828689,
+        "narHash": "sha256-gJjCw28SqU49kIiRH+MZgeYN4VBgKVEaRPr5A/2c5Pc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5e58841cce77d4bc13713ad2b91fa0d961e69192",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623847934,
+        "narHash": "sha256-GAX8ODjGj5LM44KgJC0N5uuOH4z33lDWoQgImOl8/xo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "092fbfbf53427de67cac1e9fa54aaa09a28371d7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1626382689,
+        "narHash": "sha256-GMigdVuqJN6eIN0nhY5PVUEnCqjAYUzitetk2QmX5wQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ca643a4d1f7bfe34773c74f79527be4afd95bf39",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628705363,
+        "narHash": "sha256-1xOF7C6N9OUvHm0dhqBSTihprZ30+iyJEhpJd70qZyo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3cce4a82b44f032d0cd1a1790e6d2f5a55d20aae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631739795,
+        "narHash": "sha256-pZJAAoUzf8VdJ2Wx1UUGMNOD7mAqCot2LtmylU9HGo8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "aea7bbadd2fc0cd689de94a54e5b7b758869d691",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635356605,
+        "narHash": "sha256-/70XLmi6FGHSGJqx3u9ZhZZCr+qeoniQEs4ZMHcyAGM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d921bc6d1810da51177fbd0ed61dc811c5228097",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_21_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1637159678,
+        "narHash": "sha256-fiyZk/um3pHtxeTf4tEPm/F6LGlyNNS6IhxLxnhFnU0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1f86634ff08f37e54e8bfcd86bc90b61c98f84d4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.21.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_22_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1628099779,
+        "narHash": "sha256-4lqqD3SBLBWrnFWhRzV3QgRLdGRW1Jx/eL6swtHL0Vw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c2b5237ccd9c0f1d600d3072634ca66cefdf272f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.22.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_22_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1629387506,
+        "narHash": "sha256-coiDKczX5kWw/5A9+p0atPbn2nR0wBBdfXKTw6FYywo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "632ed300f2c34f6d6d15ca4cef3d3c7073412212",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.22.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_22_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1631741492,
+        "narHash": "sha256-O+FY9wJ0fztO7i5qJfw+cfhfBgaMWKX7IBBXJV4uuCk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8b5a19147530eaac9476b0ab82980b4088bbc1b2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.22.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_22_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635359660,
+        "narHash": "sha256-yXis1nq36MO/RnYLxOYBs6xnaTf9lk+VJBzSamrHcEU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c92036820499fedefec0f847e2054d824aea6cd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.22.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_22_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1637163702,
+        "narHash": "sha256-6ivBecOttzbX85+WCttaU5nXjaiEiKU8xRhnCPkjLXg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b695d79d4f967c403a96986f1750a35eb75e75f1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.22.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_23_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1638900519,
+        "narHash": "sha256-mI9ebPbxXRrRdvHy8S2LZjfbNYjVSyDHbMi3mUrTCk4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ab69524f795c42094a6630298ff53f3c3ebab7f4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.23.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1458165663,
+        "narHash": "sha256-hyn8RKX4qRiHmVby4QBPsjqXGfdYkBvs9xtKEUGLUdQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5cb86ee022267586db386f62781338b0483733b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1459534215,
+        "narHash": "sha256-uzV0xNlHt8ona2tlKHEB9H/tMi91Em+AauHU/E9G3tM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "50809107cd47a1f62da362bccefdd9e6f7076145",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1460075964,
+        "narHash": "sha256-+olSjbzHBeeSoKCibi811FR1MxQp7f+EcCbSZCquKQU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "528f879e7d3790ea4287687ef0ab3f2a01cc2718",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1461360266,
+        "narHash": "sha256-c+5bAB+W8FBRShwbF4yVIDpVEYy7RKldeGu8H4trbM8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "882d296a99218da8f6b2a340eb0e81c69e66ecc7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1462556593,
+        "narHash": "sha256-/h1HEcrXek+P4JuoFUaj6QC0ayBP5K0gahFtXeksJYI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3eed1e3be6848b877ff80a93da3785d9034d0a4f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1467051016,
+        "narHash": "sha256-OpsRdz63IbAJUeVo/lFUb8aHbeE0mVJTp7Zu/io5Qn4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "25eb53b54e08877d3789455964b3e97bdd3f3bce",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1468599995,
+        "narHash": "sha256-PA9l9SvZvzW6+uX50dHUKPthcFY+K7+DdHEThcp/swQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6776d72256b8c3ca8e0c3e457fc58889f2202a3e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_2_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1477167788,
+        "narHash": "sha256-dKq+t3/8a9o8xbNAdqkU+8PRaYoqBmrKYylVV9WG7xs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "902de86715861baef02be82fb64d059230e52c2f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.2.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1467400746,
+        "narHash": "sha256-fJsV6atjS+mVm3XwPdiZqB/XXTvgu2iYtduPz7h9kak=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "283137936a498aed572ee22af6774b6fb6e9fd94",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1468777607,
+        "narHash": "sha256-s13AZ6yn21U3C0eyoyWO9vygvFCIiOWhumGhqtf+W+8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "fe4aa01af2e1ce3d464e11bc465237e38dbcff27",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1477947971,
+        "narHash": "sha256-9imfjG6NmHNG+v1ybrP0PKcv839+lmSNSMsoRRD6+TE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c3e367ec9eae7338ac4e2a57f293634891319b7c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1468779825,
+        "narHash": "sha256-fiblZiTgQIUW9R6WZsCOICvt8yKRE+AeMLE2ek8Qs9I=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9bafa3400a77c14ee50782bb05f9efc5c91b3185",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1469218931,
+        "narHash": "sha256-t3iKWtZtQwBlxsdqLw4GauchVGOvH1TB8gjTTsLfNC0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c6411395e09da356c608896d3d9725acab821418",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1470069461,
+        "narHash": "sha256-y2BjuwZLc+Jzyb8SFcpkhNrLl6Q7vD/j6V+hMVngQEw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "dd6b458ef8dbf24aff55795baa68f83383c9b3a9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1470946905,
+        "narHash": "sha256-M43rewYL/4AOzm0Es0fEpC6UU5xLnKchCbVzbkyWhH8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b0deb2eb8f4037421077f77cb163dbb4c0a2a9f5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1472234752,
+        "narHash": "sha256-YbIou2sY0yl5Qf4JzPQiyPIjGR5eCmwOKidjslMjW5I=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ae4550cc9c89a593bcda6678df201db1b208133b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1473721709,
+        "narHash": "sha256-4r1xEBAXycdTLbt9Ddkz4dfNtrz2ILAMwcg3il/sWak=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a2cba278cba1f6881bb0a7704d9cac6fca6ed435",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1475031123,
+        "narHash": "sha256-sxN1woSHsT0h6AZor7T/bIVo9CFTLiuIQYTfaLOQSN4=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "693ef591120267007be359f97191a6253e0e4fb5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_3_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1476995765,
+        "narHash": "sha256-vwjDnl2UW3CTwDPG10TDxgDcAuWhRBEq/ZdD9x/EP4Q=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "ee10669e21109f86c21e8f7ceb1187d7910fe120",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.3.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1474913387,
+        "narHash": "sha256-pXMRy7KzUHyDfVLQZwyE1n/uP9kec34NLhBLymNBikU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a16c0a7f71a6f93c7e0f222d961f4675cd97a46b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1476123126,
+        "narHash": "sha256-CMc6B4hKnJ6TjTaWuPVIxrpP2DRuqiQbbTBtHio3i+s=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "33cf7b9acbb2cb7c9c72a10d6636321fb180b159",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1492721626,
+        "narHash": "sha256-N1In5yEnKgAFFFyPIJ+juUVevFRNUk/7Xm/clBn1q2s=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "19e81afecf5eb2b7838c35e2cbf776aff04dc34c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1476598704,
+        "narHash": "sha256-pTay6ENFKARUgm3L1ua7aLOk+aG+EsEQ3zzQeYjF+Fg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4957b090e9a4f6a68b4a40375408fdc74a212260",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1477017700,
+        "narHash": "sha256-cAR0MqXC6IueQ7a9iljah4jSCW+FVTfnUWr6lQ/WV6s=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3b417cc4ccd1b8f38ff9ec96bb50a81ca0ea9d56",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1477704689,
+        "narHash": "sha256-p/jJFfy7JHTmXIsJioxsEc+0puOa1qWhbs94uP//pCA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5a0a696437ad35c133c0c8493f7e9d22b0f9b81b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1478927714,
+        "narHash": "sha256-3xSbkihd750xHFBRgUMqNXbax4akGcs+xOP98MDszYM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e569a27d02001e343cb68086bc06d47804f62af6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1481344966,
+        "narHash": "sha256-pTptWgkfa28Ginvh5EMj6bF+GPtltPDnDWLMT3ixPRQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "92b4f971662de9d8770f8dcd2ee01ec226a6f6c0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1484187205,
+        "narHash": "sha256-6qFsmWk3oN5rcF5co/OyM09QM1gmDCJ+gkDVrZ7jaqI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c5fcb1951afb8150e4574bc234aed957cb586eb0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_4_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1487165373,
+        "narHash": "sha256-323RvOeYqFzRmNji3/hwwF404G74MUwcBqLxy/uDxbE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "844ef259fa9ec2228d8b5ef5a211da4fa9a5fae4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.4.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1481585383,
+        "narHash": "sha256-TPWtYDqdyYEFQcXxwPSvJw4NCcHJAaCDKIYrcsyexzQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "58b7c16a52c03e4a849874602be42ee71afdcab1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1481676636,
+        "narHash": "sha256-UiEHasGn5ttPDWu2RxQsehx8aXy3rOSBzWPruKw5bh0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "82450d03cb057bab0950214ef122b67c83fb11df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1484196675,
+        "narHash": "sha256-KsxjmGHmuWhvjWFx52Oe6covO8zH7aCKnO/8JZeFX6k=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "08e099554f3c31f6e6f07b448ab3ed78d0520507",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1487140412,
+        "narHash": "sha256-wxIUtZOfrxU1Gv0MB4z36CXjpi2zJFuVx8JRLkqRqeM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "029c3a408176b55c30846f0faedf56aae5992e9b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1488929563,
+        "narHash": "sha256-ERrR0Kq1DgKrco0puMffYP7REF62OS/EhB6U2THmujI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7243c69eb523aa4377bce883e7c0dd76b84709a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1490141787,
+        "narHash": "sha256-J+LtPLyl8MqqQQTNUhXRzedVF0pI2tkT5R5EqmICk9E=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "894ff23729bbc0055907dd3a496afb725396adda",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1490708108,
+        "narHash": "sha256-uDj/LpWv2rt3OsIAZbc7n38ZfpjbMkpAWvEdSZX/0l8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "114f8911f9597be669a747ab72787e0bd74c9359",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1493285956,
+        "narHash": "sha256-QYoGf6age+uWeteZDFuGNzG0pvb3Za8gvn+IUsW8RBM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8eb75a5810cba92ccad845ca360cf924f2385881",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_5_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1506815997,
+        "narHash": "sha256-6a/C5IFB5eI85zRcO2Lu5qE5cXafxgERvggerdg3yx0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e8c167a115ec662726904265d17f75a6d79d78d8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.5.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1490718186,
+        "narHash": "sha256-b27c4M6h/o920DvhL+tSw8qyRReI1kwd/jLPEiECicU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "fff5156092b56e6bd60fff75aad4dc9de6b6ef37",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1491251545,
+        "narHash": "sha256-hsRzUIU/II7v+szc02jxirupRuoYtagTL7D+PK0CFLs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b0b7a323cc5a4a2019b2e9520c21c7830b7f708e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1505329035,
+        "narHash": "sha256-FWNdcyN2bZCJQcKlc89DFW3r0juiYp7caUtR0dJqsfk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6c7eb1f61f963295b53a1d86f488ec1a54da7523",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1506633612,
+        "narHash": "sha256-e4y8/ZkXGokHgh6I0RksYQJv4JGPRpMoNqNWxCLSoBQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "398c13def6f08d6476f686e6b01ea810f7d4ead5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1508953470,
+        "narHash": "sha256-5BwU8AXjVZzoSn/+niH/nG0Qw/jMUEXWUAVHiKYvgeg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "87cf3a252e2492a614f1e7c9b1bcd7c6bc0209df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1510961203,
+        "narHash": "sha256-P/pCvKr/cvzbe0GkfjxeI0uxNQla6ARvg0TFrbDHuNQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "14ea65f53cdae4a5657cf38cfc8d7349b75b5512",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1492633269,
+        "narHash": "sha256-wvTcjyotdowpT8jfabfex6wAYojCvICzvgH2mKQ2Edg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "477efc3cbe6a7effca06bd1452fa356e2201e1ee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1494430631,
+        "narHash": "sha256-ao6YouvGM6dlBphb1nRjZJx/JhLnIi/5FO5pttuIrPM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0480917b552be33e2dba47386e51decb1a211df6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1495218738,
+        "narHash": "sha256-IXlxDyxqcs4cOLfH76ANkasqjfNvoHgRH6Jl5kmeXfE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d6f433224538d4f9ca2f7ae19b252e6fcb66a3ae",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1497470513,
+        "narHash": "sha256-PBh0Wy9BQUw3dKAJ2Zfhj/wIZQHm6iJI6t89wgumxP8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "490c6f13df1cb6612e0993c4c14f2ff90f8cdbf3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1497637199,
+        "narHash": "sha256-pN/oj3oUUuAjDTUmkRLUF7nJgMOusgPtDTGbXeZhQHo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7fa1c1756d8bc963f1a389f4a6937dc71f08ada2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1499272741,
+        "narHash": "sha256-AK2x6WvsrGE/7PBX1FVHvto6x+PR1XjhWbI0Oo9ne+s=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "095136c3078ccf887b9034b7ce598a0a1faff769",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1501783216,
+        "narHash": "sha256-Rp3lYt2DH9nioy+njc3V6yqt4rOhXhaPRowCiLD4EDQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d74e09bb4e4e7026f45becbed8310665ddcb8514",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_6_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1503507477,
+        "narHash": "sha256-OALZWIgzEUd8w7HbK97mrOuCX9ocfYqq6nB25iUVGyM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "a3d1dfa6f433575ce50522888a0409397b294c7b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.6.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1498776796,
+        "narHash": "sha256-KvldUaGpMIMk7Svk94u8mYKQcbv2/Ki5u80A4AsVVks=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d3ada0119e776222f11ec7945e6d860061339aad",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1499996831,
+        "narHash": "sha256-gx07hMWR31ccEBA3nRtm0Zz8+hNHunHwXJoWMrsVLrs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1dc5c66f5dd61da08412a74221ecc79208c2165b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1509726466,
+        "narHash": "sha256-cuChJrbNSLOjDbf24ZZLk2Rj8syfviP205TyJEvMp1E=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "bebdeb749f1fa3da9e1312c4b08e439c404b3136",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1511340045,
+        "narHash": "sha256-0U+P4YrgCn+R9OfgfzaJz+CDcK7A87Oodtd2M1ZkIDI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b13f2fd682d56eab7a6a2b5a1cab1a3d2c8bdd55",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1514453881,
+        "narHash": "sha256-Xu3GMb4PODyFy0rL/M/MCDwX/wi10JeqIpWE5iM2BoM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3bda299a6414b4866f179921610d6738206a18fe",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1517748728,
+        "narHash": "sha256-0qRzVVvW+ymGR3JxSHiMjj0i22Khd7/xp76XJ3mvaOQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7e4c2dfb27000d69cd43d3a78ece76d5564687be",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1520870833,
+        "narHash": "sha256-7ym359RjDpIgMZKectCkfjF0UmApDX15BDyjrIgimCg=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d1303b003001cf2b5b8cec099383125096b3dac0",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.14",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_15": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1521305788,
+        "narHash": "sha256-yPlbztngh9uehHKRJ6HnWyvgoMrEIdi/Z7r2vz6oH1k=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8c7c1c8b0ce0866d5ded2ce4fa402a716ce6bb6c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.15",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_16": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1522324026,
+        "narHash": "sha256-PAZoyEMLMz+G6e2uPPArVkhsk1Z3wGQTUoytDwenSs8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "e8846c1d7e7e632d4bd5ed46160eff3dc4c993c5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.16",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1500624396,
+        "narHash": "sha256-UlTpvwlZ5apNPWFOl7xg/f8S/ri+2gHDQcjqu6sY7So=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "922a86cfcd65915a9b2f69f3f193b8907d741d9c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1501742532,
+        "narHash": "sha256-84SQTWNtY96Rgtn39BbOl4BHBs4gdqw5jOq+tcc53yk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2c2fe6e8278a5db2d15a013987b53968c743f2a1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1502958554,
+        "narHash": "sha256-XnrSD4oZbQHZbo6V6Gb7VWtMaGtXsd8ISPusinpcJaA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "793658f2d7ca7f064d2bdf606519f9fe1229c381",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1504169700,
+        "narHash": "sha256-fSHLy+bbJ+lqTyOotX/KHoWVdPraEJ2pvC1jnXlzJ8Y=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "17d7182a7ccbb167074be7a87f0a68bd00d58d97",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1505370846,
+        "narHash": "sha256-Hi+6Tn0SxEihvwb3IIfXfQKjTigqPUTaOzB+xSWwHzA=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "4bc5e7f9a6c25dc4c03d4d656f2cefd21540e28c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1506642857,
+        "narHash": "sha256-vl1gvLole8pgboLqbMTouVlYQ5BqtIKo8M/+AqhJsKk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "8e1552342355496b62754e61ad5f802a0f3f1fa7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1507185206,
+        "narHash": "sha256-Ca1x5JK2Xar8tlIAinj4L+uXUvT2+pJro8dyAmxz2/U=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "bc6162cc70b4a39a7f39391564e0dd0be60b39e9",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_7_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1508395127,
+        "narHash": "sha256-8cl/LD8dN9EbSsJlqV9DwqyDKGN6l7uBNVz7ivZ+qlM=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "7f63532e4ff4fbc7cacd96f6a95b50a49a2dc41b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.7.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1506636837,
+        "narHash": "sha256-pK4jNfGkkV2TiG5km/CzJFBFiSUxMY4ea19lGXC+gmU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "0b9efaeb34a2fc51ff8e4d34ad9bc6375459c4a4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1507763737,
+        "narHash": "sha256-f1z84Ik1elmgcLj7/RxZ0vksYSeKo3nHcKodfUY2Le0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f38e43b221d08850172a9a4ea785a86a3ffa3b3a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1521272772,
+        "narHash": "sha256-jDyulsJ/rsygx5nrS0AR+SBagmg+tg3qCbkpPXQooHo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "044cd262c40234014f01b40ed7b9d09adbafe9b1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1522867402,
+        "narHash": "sha256-nf0uzudPIbnigO+wYv/ikmehmpFudSa7BdwXrlEBasE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1df6a8381669a6c753f79cb31ca2e3d57ee7c8a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_12": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1524458153,
+        "narHash": "sha256-BG5kO4D/qiZMNIjUp8bGOT4fcexg0rdDjnAL5O+foWs=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5d26aba6949f188fde1af4875661e038f538f2c6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.12",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_13": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1526060813,
+        "narHash": "sha256-oRccu3bSE8PbMHwUjC3ZFhRwa5EXq+Um8Lo14yED38U=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "290fb182489a396dce5d136451388f9b12f29c94",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.13",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_14": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1529346370,
+        "narHash": "sha256-62Kw8qMCrCeQngUYQbZ3bW/6pVq2m/wSx5E0FyaeLc0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9d72fafc46543ebdad024b7577012268bab543a7",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.14",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_15": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1531327431,
+        "narHash": "sha256-RJLydeJXaafPwfKaeISrd6vFQ4gUE80xnyTXOK1Titc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c2bd642c70b3629223ea3b7db566a267a1e2d0df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.15",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1508873842,
+        "narHash": "sha256-Bw9+1gawA8S8y7fgHQIHid8EZMu9GIIoWxrfZUOr5Us=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "bdaeafa71f6c7c04636251031f93464384d54963",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1510165616,
+        "narHash": "sha256-Aq5ed6WowmxKZnDjPrBYuKQ3ZflnNxQE9z2QysVTrls=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f0efb3cb883751c5ffdbe6d515f3cb4fbe7b7acd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1511073775,
+        "narHash": "sha256-sXnui5IRgLZywvIgWQRIiZ86cFZ5tE8mH5rK2dIhRZQ=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9befc2b8928a9426501d3bf62f72849d5cbcd5a3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1512595340,
+        "narHash": "sha256-zjMGVPd9AkTUDKcXxJFjgJCzar0b9KpGH6pFZhkZVrc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "cce11c6a185279d037023e02ac5249e14daa22bf",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1513795553,
+        "narHash": "sha256-F+EuAhjSk72ThbUDNL5+IxPbb4bB9tvIH2D6Tmfbmng=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "6260bb08c46c31eea6cb538b34a9ceb3e406689c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1516022089,
+        "narHash": "sha256-cErsT2/eil++Vbrsk6dtqZRdIwDur03hY3sch/4yHi0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "b30876a5539f09684ff9fde266fda10b37738c9c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1517772497,
+        "narHash": "sha256-GyjoqiiRVuYtBrwJf3kQd0k14ch0i+NQ71kiwkLbbTo=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "2f73858c9e6ede659d6828fe5a1862a48034a0fd",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_8_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1520870758,
+        "narHash": "sha256-kL1tMRHTAgikulnKyCDrbHR5+5ELyaKWtxuHIdv/9hc=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3fb1aafdafa3d33bc698930095db1e56c0f76452",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.8.9",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_0": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1513279237,
+        "narHash": "sha256-qjxM8v+hC6HD11nd74a88Nddd9rjDeDHxiUbY4scaAw=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "925c127ec6b946659ad0fd596fa959be43f0cc05",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.0",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_1": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1515002896,
+        "narHash": "sha256-s4bA9szBIeJP9Jj7UatViepHyDqEEly51u5ANMITuLY=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "3a1c9449a956b6026f075fa3134ff92f7d55f812",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.1",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_10": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1533168185,
+        "narHash": "sha256-69GGSRdSuGQsTpE8paHD88ItfVn18zOqTMUVsPgi2I8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "098570796b32895c38a9a1c9286425fb1ececa18",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.10",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_11": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1538170086,
+        "narHash": "sha256-O5/mKApSEE3CsBrUluQoiRHsn0JisNxmthPNExkhifI=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "1bfeeb6f212135a22dc787b73e1980e5bccef13d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.11",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_2": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1516189491,
+        "narHash": "sha256-4po9G4yfLb8ZTvSsAuD0KSxqi7jO38h7WZjeZxGYyXk=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "5fa2db2bd46ac79e5e00a4e6ed24191080aa463b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.2",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_3": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1517902168,
+        "narHash": "sha256-chR2YG88Mkpc/pBDKm51UIscHTgwMa5FIongyPg6tFE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "d2835416544f298c919e2ead3be3d0864b52323b",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.3",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_4": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1520870593,
+        "narHash": "sha256-eNAshLb4ZvUm4N4nuIuYEArKo1YC4UFg1sZ3oKeyvM8=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "bee2d1505c4fe820744d26d41ecd3fdd4a3d6546",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.4",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_5": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1521284120,
+        "narHash": "sha256-1aVizc20zzrR8mZ2P77yci/ckE5iwgEpNnB7/mmYwVU=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "f01a2bf98249a4db383560443a59bed0c13575df",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.5",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_6": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1521573670,
+        "narHash": "sha256-EVxM1rBKtOVfIe/0yE9WKxr3Hr7GsiAcQLpLoJIDeK0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "9f8ebd171479bec0ada837d7ee641dec2f8c6dd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.6",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_7": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1524000067,
+        "narHash": "sha256-cKV7jddNuRvk6wNJWU8qWN73sm+y0xrKu34vwxCB07c=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "dd5e1a2978fd0b97d9b78e1564398aeea7e7fe92",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.7",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_8": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1526699292,
+        "narHash": "sha256-7Xys9DySWoAHwkHVeGNalo5HNPdLIhkFLf/BbITRSwE=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "c138b85178156011dc934c2c9f4837476876fb07",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.8",
+        "repo": "kubernetes",
+        "type": "github"
+      }
+    },
+    "v1_9_9": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1530088973,
+        "narHash": "sha256-rpmuAqAo6SPYJPaNncLseYR/3kDCqrXRxtBmvHftPP0=",
+        "owner": "kubernetes",
+        "repo": "kubernetes",
+        "rev": "57729ea3d9a1b75f3fc7bbbadc597ba707d47c8a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kubernetes",
+        "ref": "v1.9.9",
+        "repo": "kubernetes",
+        "type": "github"
       }
     }
   },

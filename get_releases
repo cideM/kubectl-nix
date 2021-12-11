@@ -1,0 +1,36 @@
+#! /usr/bin/env fish
+
+# combination of GitHub username:token such as
+# 'foo@bar.com:dawkjdoawd'
+argparse 't/token=' -- $argv
+or exit 1
+
+set -l last_page (curl -H "Accept: application/vnd.github.v3+json" \
+                       -u "$_flag_token" \
+                       -Is 'https://api.github.com/repos/kubernetes/kubernetes/releases' \
+                        | string replace "link: " "" \
+                        | string split "," \
+                        | string trim \
+                        | rg 'rel="last"' \
+                        | rg 'page=(\d+)>' -o -r '$1')
+
+# fetch all pages of releases
+set -l data
+for page in (seq 1 $last_page)
+  set -a data (\
+    curl -H "Accept: application/vnd.github.v3+json" \
+         -u "$_flag_token" \
+         -s "https://api.github.com/repos/kubernetes/kubernetes/releases?page=$page&per_page=100" \
+     | jq 'map(select((.prerelease == false) and (.draft == false))) | map({tag_name}) | .[]')
+end
+
+# print each release in a format suitable to be used in flake.nix inputs
+set -l release_list (jq -s -r 'map(.tag_name) | .[]' < (echo $data | psub) | string collect)
+for release in (echo "$release_list" | lua ./sort_semver.lua)
+  if rg -q "v0" (echo $release | psub)
+    continue
+  end
+  set -l nix_name (string replace -a "." "_" $release)
+  printf "%s.url=\"github:kubernetes/kubernetes?ref=%s\";\n" $nix_name $release
+  printf "%s.flake = false;\n" $nix_name
+end
