@@ -1,0 +1,8 @@
+#!/usr/bin/env fish
+#! vim set ft=fish
+
+# First positional parameter needs to be the path to the Nixpkgs source
+
+git log -p -- \
+  $argv[1]/pkgs/applications/networking/cluster/kubernetes/default.nix \
+  | rg 'version = "(1.*)"' -or '$1' | sort | uniq
