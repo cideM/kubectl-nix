@@ -1,7 +1,7 @@
 #! /usr/bin/env fish
 
 # combination of GitHub username:token such as
-# 'foo@bar.com:dawkjdoawd'
+# 'bax@boo.com:foo
 argparse 't/token=' -- $argv
 or exit 1
 

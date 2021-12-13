@@ -1,10 +1,10 @@
 #! /usr/bin/env fish
 #! vim set ft=fish
 
-set -l KUBEDRVPATH ./pkgs/applications/networking/cluster/kubernetes/default.nix
+# First positional parameter needs to be the path to the Nixpkgs source
+set -l KUBEDRVPATH $argv[1]/pkgs/applications/networking/cluster/kubernetes/default.nix
 
 git rev-list --branches master --no-merges "$KUBEDRVPATH" \
   | xargs -I{} git grep "$argv[1]\.$argv[2]\.$argv[3]" {} "$KUBEDRVPATH" \
   | rg -or '$1' '^([a-zA-Z0-9]+):' \
   | head -n 1
-
