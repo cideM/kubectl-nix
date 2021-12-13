@@ -4,7 +4,7 @@ Ever wanted to install a specific `kubectl` version for your cluster, but Nixpkg
 
 ## Usage
 
-Here's how to list the outputs and then build one.
+Here's how to list the outputs and then build one:
 
 ```console
 $ nix flake show github:cidem/kubectl-nix
@@ -26,6 +26,16 @@ git+file:///Users/fbs/private/kubectl-nix
     ...
 $ nix build github:cidem/kubectl-nix#1_18_8
 ```
+
+Here's how you can use this in a flake, as an overlay:
+
+```nix
+(self: super: {
+  kubectl = kubectl-nix.packages."x86_64-darwin"."1_19_3";
+})
+```
+
+For older versions it's advised to use `x86_64-darwin` if you're on an M1 machine!
 
 ## Architecture (and what didn't work)
 
