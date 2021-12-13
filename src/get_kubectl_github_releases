@@ -26,7 +26,7 @@ end
 
 # print each release in a format suitable to be used in flake.nix inputs
 set -l release_list (jq -s -r 'map(.tag_name) | .[]' < (echo $data | psub) | string collect)
-for release in (echo "$release_list" | lua ./sort_semver.lua)
+for release in (echo "$release_list" | lua ./src/sort_semver.lua)
   if rg -q "v0" (echo $release | psub)
     continue
   end
