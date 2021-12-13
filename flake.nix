@@ -26,6 +26,8 @@
     nixpkgs_1_21_2.url = "github:nixos/nixpkgs/9fb4ba960ac374df9ba278bc2304a2cb6356d84d";
     nixpkgs_1_22_4.flake = false;
     nixpkgs_1_22_4.url = "github:nixos/nixpkgs/535c1e5a72e1bf15b71ed1a59de84a9ae7a0eb91";
+    v1_23_0.url = "github:kubernetes/kubernetes?ref=v1.23.0";
+    v1_23_0.flake = false;
     flake-utils.url = "github:numtide/flake-utils";
   };
 
@@ -44,6 +46,7 @@
     , nixpkgs_1_20_4
     , nixpkgs_1_21_2
     , nixpkgs_1_22_4
+    , v1_23_0
     , flake-utils
     }:
 
@@ -51,6 +54,21 @@
     let
       pkgs = import nixpkgs {
         inherit system;
+      };
+
+      nixpkgs_1_22_4_modified = import nixpkgs_1_22_4 {
+        inherit system;
+        overlays = [
+          (self: super: {
+            "1_23_0" = (super.kubernetes.override ({
+              go = super.go_1_17;
+            })).overrideAttrs (old: {
+              version = "v1.23.0";
+              src = v1_23_0;
+              WHAT = "cmd/kubectl";
+            });
+          })
+        ];
       };
 
     in
@@ -71,6 +89,7 @@
         "1_20_4" = (import nixpkgs_1_20_4 { inherit system; }).pkgs.kubectl;
         "1_21_2" = (import nixpkgs_1_21_2 { inherit system; }).pkgs.kubectl;
         "1_22_4" = (import nixpkgs_1_22_4 { inherit system; }).pkgs.kubectl;
+        "1_23_0" = nixpkgs_1_22_4_modified.pkgs."1_23_0";
       };
       devShell = pkgs.mkShell {
         buildInputs = with pkgs; [
