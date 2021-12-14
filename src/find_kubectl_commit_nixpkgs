@@ -5,6 +5,6 @@
 set -l KUBEDRVPATH $argv[1]/pkgs/applications/networking/cluster/kubernetes/default.nix
 
 git rev-list --branches master --no-merges "$KUBEDRVPATH" \
-  | xargs -I{} git grep "$argv[1]\.$argv[2]\.$argv[3]" {} "$KUBEDRVPATH" \
+  | xargs -I{} git grep "$argv[2]\.$argv[3]\.$argv[4]" {} "$KUBEDRVPATH" \
   | rg -or '$1' '^([a-zA-Z0-9]+):' \
   | head -n 1

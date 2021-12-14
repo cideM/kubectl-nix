@@ -78,25 +78,49 @@
         # "1_5_2" = (import nixpkgs_1_5_2 {
         #   system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
         # }).pkgs.kubernetes;
-        # "1_13_1" = (import nixpkgs_1_13_1 { inherit system; }).pkgs.kubectl;
-        "1_14_0" = (import nixpkgs_1_14_0 { inherit system; }).pkgs.kubectl;
-        "1_15_3" = (import nixpkgs_1_15_3 { inherit system; }).pkgs.kubectl;
-        "1_15_4" = (import nixpkgs_1_15_4 { inherit system; }).pkgs.kubectl;
-        "1_18_6" = (import nixpkgs_1_18_6 { inherit system; }).pkgs.kubectl;
-        "1_18_8" = (import nixpkgs_1_18_8 { inherit system; }).pkgs.kubectl;
-        "1_19_1" = (import nixpkgs_1_19_1 { inherit system; }).pkgs.kubectl;
-        "1_19_3" = (import nixpkgs_1_19_3 { inherit system; }).pkgs.kubectl;
-        "1_20_4" = (import nixpkgs_1_20_4 { inherit system; }).pkgs.kubectl;
+        "1_13_1" = (import nixpkgs_1_13_1 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_14_0" = (import nixpkgs_1_14_0 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl.overrideAttrs (old: {
+          # cannot build derivation
+          # '/nix/store/w2pcifdl014pyych50yw8118hmjn7j8b-kubectl-1.14.0.drv':
+          # 1 dependencies couldn't be built
+          meta.broken = pkgs.stdenv.isDarwin;
+        });
+        "1_15_3" = (import nixpkgs_1_15_3 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_15_4" = (import nixpkgs_1_15_4 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_18_6" = (import nixpkgs_1_18_6 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_18_8" = (import nixpkgs_1_18_8 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_19_1" = (import nixpkgs_1_19_1 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_19_3" = (import nixpkgs_1_19_3 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
+        "1_20_4" = (import nixpkgs_1_20_4 {
+          system = if system == "aarch64-darwin" then "x86_64-darwin" else system;
+        }).pkgs.kubectl;
         "1_21_2" = (import nixpkgs_1_21_2 { inherit system; }).pkgs.kubectl;
         "1_22_4" = (import nixpkgs_1_22_4 { inherit system; }).pkgs.kubectl;
         "1_23_0" = nixpkgs_1_22_4_modified.pkgs."1_23_0";
       };
       devShell = pkgs.mkShell {
-        buildInputs = with pkgs; [
-          coreutils
-          fish
-          lua5_4
-        ];
+        buildInputs = with pkgs;
+          [
+            coreutils
+            fish
+            lua5_4
+          ];
       };
     });
 }

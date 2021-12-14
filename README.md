@@ -35,7 +35,7 @@ Here's how you can use this in a flake, as an overlay:
 })
 ```
 
-For older versions it's advised to use `x86_64-darwin` if you're on an M1 machine!
+Up until and including 1.20.4 `aarch64` packages use `x86_64-darwin`.
 
 ## Architecture (and what didn't work)
 
